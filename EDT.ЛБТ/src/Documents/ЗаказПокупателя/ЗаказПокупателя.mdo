@@ -1851,4 +1851,48 @@
       </extension>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="00384150-dc33-4035-9ffa-4de6e0219a1a" extendedConfigurationObject="10952c6c-de05-4ec1-bd4e-821e35c83f10">
+    <producedTypes>
+      <objectType typeId="d39000aa-b381-4186-9659-fc29ee155328" valueTypeId="bc127fd4-8a49-44b7-89bb-8b85b60420db"/>
+      <rowType typeId="448448d8-8f63-4710-a027-d22e36a3e5be" valueTypeId="510662fb-ce4a-4233-bb07-ecddb221b548"/>
+    </producedTypes>
+    <name>Работы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+  <tabularSections uuid="03aa6054-dcc0-4f77-a5b5-7965f301efd5" extendedConfigurationObject="91499ea5-e78e-4621-b5af-36ecc6c5622a">
+    <producedTypes>
+      <objectType typeId="7c3dc725-3036-45a4-97eb-215aa772a8b5" valueTypeId="a286c711-179b-4bee-bb15-43c4d219f66e"/>
+      <rowType typeId="8614db63-3047-49b8-ae0b-7b91020eebc2" valueTypeId="a88c6712-4aff-4af4-843f-f3940800c99d"/>
+    </producedTypes>
+    <name>СкидкиНаценки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+  <tabularSections uuid="45712d87-b0f0-4a07-b074-76c1dd887037" extendedConfigurationObject="ba90171c-9b71-4d8e-a6b3-9d9ec34da97c">
+    <producedTypes>
+      <objectType typeId="b8cea38a-f839-472e-b881-59abab53dae8" valueTypeId="75c15df3-2195-4095-9a85-4a27a32e5cd4"/>
+      <rowType typeId="d1725404-b795-49b3-8377-246c8230af90" valueTypeId="6a5ffce6-6fda-4741-ae8f-a6ee1f4e8f3e"/>
+    </producedTypes>
+    <name>Материалы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+  <tabularSections uuid="08dc4e32-0f8c-43c4-8ad8-6974021fef8b" extendedConfigurationObject="f07da91c-051f-4cca-bbe2-fc6ce5de2945">
+    <producedTypes>
+      <objectType typeId="e8e38c22-aef0-4aae-91c3-7f7a5aa3ce67" valueTypeId="43071bb5-9b5f-4838-a8b6-86ba73f31217"/>
+      <rowType typeId="6fedd67c-8498-4817-99ea-c6d1eee098f6" valueTypeId="ee46d9c0-b1b0-4b6c-9e73-da6ac275b96f"/>
+    </producedTypes>
+    <name>Калькуляция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
 </mdclass:Document>
