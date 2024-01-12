@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2241c107-2bc4-4962-84b9-675f30839819" extendedConfigurationObject="5284626a-25af-427f-9d5e-2f1120eb8bf3">
+  <producedTypes>
+    <managerType typeId="433f6d1f-0ade-496f-b195-814b399224f6" valueTypeId="48388769-caf6-411d-be58-fa821ff4647a"/>
+    <valueManagerType typeId="1866d954-e4f6-4e4f-a84f-e003fba43b43" valueTypeId="85fa9ecb-ded2-40a9-9b7c-9db5cd136d93"/>
+    <valueKeyType typeId="20da3ae0-f755-4cf4-9329-5ea26d4cb38d" valueTypeId="ed0fc59c-80bf-4707-953a-d2bf0e0d194a"/>
+  </producedTypes>
+  <name>ИспользоватьПроцессыСостояний</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Constant>

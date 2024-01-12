@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aca6ec40-8c02-4c9b-90a5-a7846d28defe" extendedConfigurationObject="fcd3b171-2ade-4fac-b6d6-7ba3d0ab1305">
+  <name>СоздатьЗадачуСотрудника</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <group>Checked</group>
+  </extension>
+  <group>CommandGroup.Органайзер</group>
+</mdclass:CommonCommand>

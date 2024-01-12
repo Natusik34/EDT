@@ -50,8 +50,15 @@
   <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <styleItems>StyleItem.СветлыйСерый</styleItems>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияФлаги</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
   <roles>Role.ЛБТ_ОсновнаяРоль</roles>
+  <functionalOptions>FunctionalOption.ИспользоватьПроцессыСостояний</functionalOptions>
+  <definedTypes>DefinedType.Вес</definedTypes>
+  <definedTypes>DefinedType.Объем</definedTypes>
   <commonCommands>CommonCommand.Напомнить</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.ОтправитьПоЭлектроннойПочте</commonCommands>
@@ -59,13 +66,35 @@
   <commonCommands>CommonCommand.СвязанныеДокументы</commonCommands>
   <commonCommands>CommonCommand.ОтчетПоДвижениям</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <constants>Constant.ИспользоватьПроцессыСостояний</constants>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.КалендариСотрудников</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.Спецификации</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказовПоставщикам</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
+  <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
+  <enums>Enum.ТипыДенежныхСредств</enums>
+  <enums>Enum.ВариантыЗавершенияЗаказа</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
 </mdclass:Configuration>
