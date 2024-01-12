@@ -2418,7 +2418,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>CatalogRef.ТегиЗадач</types>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2512,7 +2512,7 @@
     <name>ДанныеТегов</name>
     <id>8</id>
     <valueType>
-      <types>ValueTable</types>
+      <types>DynamicList</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2521,59 +2521,12 @@
       <common>true</common>
     </edit>
     <savedData>true</savedData>
-    <columns>
-      <name>Тег</name>
-      <id>1</id>
-      <valueType>
-        <types>CatalogRef.ТегиЗадач</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ПредставлениеТега</name>
-      <id>2</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ДлинаТега</name>
-      <id>3</id>
-      <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>2</precision>
-        </numberQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ПометкаУдаления</name>
-      <id>4</id>
-      <valueType>
-        <types>Boolean</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
   </attributes>
   <attributes>
     <name>ПредставлениеОбъектаМетаданных</name>
@@ -2691,7 +2644,7 @@
     </title>
     <id>18</id>
     <valueType>
-      <types>ValueTable</types>
+      <types>ValueList</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2699,36 +2652,9 @@
     <edit>
       <common>true</common>
     </edit>
-    <columns>
-      <name>Основание</name>
-      <title>
-        <key>ru</key>
-        <value>Основание</value>
-      </title>
-      <id>1</id>
-      <valueType>
-        <types>DefinedType.ОснованиеЗадачи</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Задача</name>
-      <id>2</id>
-      <valueType>
-        <types>DocumentRef.ЗадачаСотрудника</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>Действие</name>
@@ -2748,7 +2674,7 @@
     <name>НаборСвойств_Документ_ЗадачаСотрудника</name>
     <id>20</id>
     <valueType>
-      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+      <types>CatalogRef.ЛБТ_СправочникТест</types>
     </valueType>
     <view>
       <common>true</common>

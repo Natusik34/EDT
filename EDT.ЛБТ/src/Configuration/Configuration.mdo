@@ -75,6 +75,7 @@
   <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
   <definedTypes>DefinedType.Вес</definedTypes>
   <definedTypes>DefinedType.Объем</definedTypes>
+  <definedTypes>DefinedType.ОснованиеЗадачи</definedTypes>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.Напомнить</commonCommands>
@@ -116,6 +117,8 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.КалендариСотрудников</catalogs>
+  <catalogs>Catalog.ТегиЗадач</catalogs>
+  <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
@@ -130,4 +133,5 @@
   <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ТипыДокументовЭДО</enums>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
