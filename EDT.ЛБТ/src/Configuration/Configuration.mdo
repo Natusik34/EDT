@@ -122,6 +122,7 @@
   <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.Событие</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
