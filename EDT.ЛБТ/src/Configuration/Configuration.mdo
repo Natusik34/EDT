@@ -84,6 +84,7 @@
   <constants>Constant.ИспользоватьПроцессыСостояний</constants>
   <constants>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</constants>
   <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
+  <constants>Constant.ЛБТ_Константа</constants>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
   <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
