@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7213ef91-77c5-4505-81f4-3370bfa134c7">
+  <producedTypes>
+    <objectType typeId="46030d52-6249-424a-a433-52c78af7b3bb" valueTypeId="fdcfa665-ecb3-44fb-be1c-dfd1777ce5a4"/>
+    <refType typeId="19dab5b8-35f6-415b-b81c-fcf41dd7cf04" valueTypeId="539fae4c-3086-4469-8f3e-4aecef4eb307"/>
+    <selectionType typeId="5887bf49-defc-49ac-a438-022c45152656" valueTypeId="97ec43a2-d0dc-4663-a762-057af531ba55"/>
+    <listType typeId="2b4b10a4-569b-442d-9cfb-5eedb32f5c5a" valueTypeId="4ea4e621-3fb7-48d5-9eb6-32d7bf8a04ad"/>
+    <managerType typeId="5de43a80-60a5-4daf-83e8-e1ac51e0e718" valueTypeId="fa25c1ed-ba19-43a1-9380-1ba21874d882"/>
+  </producedTypes>
+  <name>ЛБТ_СправочникТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛБТ_СправочникТест.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛБТ_СправочникТест.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

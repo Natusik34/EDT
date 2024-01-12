@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="73e8268b-6216-4be4-9580-66fdc1372e37" extendedConfigurationObject="41f09f7a-579f-4325-a561-d62e9c011485">
+  <name>CRM</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЛБТ_СправочникТест</content>
+  <subsystems>ЛБТ_Подсистема</subsystems>
+</mdclass:Subsystem>

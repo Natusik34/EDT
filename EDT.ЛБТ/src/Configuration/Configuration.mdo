@@ -27,7 +27,7 @@
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>ЛБТ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
-  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -43,5 +43,8 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.CRM</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
   <roles>Role.ЛБТ_ОсновнаяРоль</roles>
+  <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
 </mdclass:Configuration>
