@@ -67,4 +67,5 @@
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
+  <enums>Enum.ВидыОперацийВзаимозачет</enums>
 </mdclass:Configuration>
