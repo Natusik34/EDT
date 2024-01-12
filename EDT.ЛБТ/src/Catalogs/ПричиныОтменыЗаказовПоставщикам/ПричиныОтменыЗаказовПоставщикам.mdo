@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9ee3a1cd-030e-4f85-9dd0-f2543336f3e6" extendedConfigurationObject="dc0cc48b-4b6c-4ea2-beb9-c2a7e7bd839e">
+  <producedTypes>
+    <objectType typeId="2a39d238-e9da-4aa4-b006-35814ccc08a4" valueTypeId="e226a4c4-d7bb-4f77-8126-d361ab377e07"/>
+    <refType typeId="9387c992-580e-4406-a57c-6eaa08ebe979" valueTypeId="5122d13a-c2d4-4ee4-80a7-cd0f3dad7696"/>
+    <selectionType typeId="76e66b74-4fe3-4942-9ec4-ed2d3f709957" valueTypeId="b7a8776c-96a0-413a-b633-510c1e8e21a3"/>
+    <listType typeId="7c701175-14e3-4733-b941-604ffdf0ceb5" valueTypeId="2a421c02-0988-4595-962a-29663bd6398d"/>
+    <managerType typeId="a31610a7-5f68-44fd-97be-bd005aa5ab10" valueTypeId="bfbc3ce0-4243-4db0-b49d-157bb11e866a"/>
+  </producedTypes>
+  <name>ПричиныОтменыЗаказовПоставщикам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
