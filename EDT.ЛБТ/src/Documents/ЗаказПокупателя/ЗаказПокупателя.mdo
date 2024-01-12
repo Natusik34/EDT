@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2fdee377-7a78-4f2c-bfee-bba5524a3159" extendedConfigurationObject="9133d1ee-54e6-4556-8f42-a94010c0b021">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8782f1a6-4257-484d-a1d0-a551995755db" extendedConfigurationObject="9133d1ee-54e6-4556-8f42-a94010c0b021">
   <producedTypes>
-    <objectType typeId="82177d25-b9d2-4246-bac6-02ad257745d2" valueTypeId="982c3726-fc4b-42ae-885d-049d4d44e5c2"/>
-    <refType typeId="677929f5-ccd5-4b68-8a64-c93404e22617" valueTypeId="bf4543ca-32b6-4151-a4f3-b3a9056b0d0f"/>
-    <selectionType typeId="7aa1bf53-3504-4767-a370-7c38ddbca86e" valueTypeId="57e7788c-7ea1-4e33-849a-5c48c928f55c"/>
-    <listType typeId="d7ccf6e3-5971-43b0-864e-6b59e0b8c5b3" valueTypeId="25b3cfdb-9f76-401e-8829-be3a6f752e6d"/>
-    <managerType typeId="fd70724e-2459-4865-a390-09467648009f" valueTypeId="eca508be-f0ff-4b89-8c20-cf7dca4e6b03"/>
+    <objectType typeId="bb843770-2a9f-4c49-ab92-226fcdee4d59" valueTypeId="28fcbcc0-9609-4cab-8945-3967e6d283d5"/>
+    <refType typeId="40621302-8bf8-43bf-a119-88aa1c064c7c" valueTypeId="3a2ae2ff-e70a-40bd-8630-e2a50575f4ac"/>
+    <selectionType typeId="aaed3765-7a6d-4754-9f43-e938514d3fea" valueTypeId="d1c9f0bd-b997-429d-a829-588e83a11bc3"/>
+    <listType typeId="4e715a6e-582b-44c9-91c2-9a3aca3eeafe" valueTypeId="17e0aeb2-2d53-4f14-b364-9a8e348cc0b4"/>
+    <managerType typeId="318f8f98-88de-4573-8541-06a963d82964" valueTypeId="cb3c5dc3-dfb3-411a-9848-f6d5d927a58f"/>
   </producedTypes>
   <name>ЗаказПокупателя</name>
   <objectBelonging>Adopted</objectBelonging>
@@ -13,7 +13,7 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="286ff3c6-adbc-439b-8e42-21d4a6b6478c" extendedConfigurationObject="3164e35f-3601-42b5-ba0d-68001304ec8b">
+  <attributes uuid="99948418-5192-4225-a1ed-8bccff00344f" extendedConfigurationObject="3164e35f-3601-42b5-ba0d-68001304ec8b">
     <name>ВидЗаказа</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -26,7 +26,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="8c8c4b2e-f9a3-480f-b687-85fed82f64c8" extendedConfigurationObject="2e33dd49-eee5-4cf8-b315-72bf4d578b18">
+  <attributes uuid="1a881966-b19b-43f1-83e3-df4a0adaac78" extendedConfigurationObject="2e33dd49-eee5-4cf8-b315-72bf4d578b18">
     <name>СостояниеЗаказа</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -39,7 +39,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="8f60d344-f127-44b6-91a9-a08d64a3fdb1" extendedConfigurationObject="1371d910-ad1b-48fe-ae24-803656eb6c75">
+  <attributes uuid="e9a334bd-d96c-4b66-aab4-a334d5a6756c" extendedConfigurationObject="1371d910-ad1b-48fe-ae24-803656eb6c75">
     <name>Контрагент</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -52,7 +52,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="879c939b-0570-478b-b5d3-966c5a041b21" extendedConfigurationObject="1864a4fa-3bca-4347-bf6a-82bdf3e87b6f">
+  <attributes uuid="e4410f97-0f26-4c6e-a119-fa9fd2deccdc" extendedConfigurationObject="1864a4fa-3bca-4347-bf6a-82bdf3e87b6f">
     <name>Договор</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -65,7 +65,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="6c4027ce-298a-4970-be79-77597c7f165f" extendedConfigurationObject="e9e03101-b170-4fdc-a01c-996193bbb1ab">
+  <attributes uuid="a1ec319b-16e6-43f1-a691-6cc5d641e37d" extendedConfigurationObject="e9e03101-b170-4fdc-a01c-996193bbb1ab">
     <name>ДатаОтгрузки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -81,7 +81,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="39515820-d30b-4244-812b-b57ce6fe5de6" extendedConfigurationObject="fd1e7d34-4bc2-4c14-b4a7-bdb058ca9024">
+  <attributes uuid="b805fbaa-54ea-4da7-91b8-f58c72ae5cc6" extendedConfigurationObject="fd1e7d34-4bc2-4c14-b4a7-bdb058ca9024">
     <name>ВидОперации</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -94,7 +94,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="8ba70e31-fbe8-4f81-a6c8-dfb20a3c3987" extendedConfigurationObject="ba7dcb3b-b8b9-4d44-ab5f-56f7a228f10d">
+  <attributes uuid="351245d0-e5b7-49f1-a29e-86e707d280f8" extendedConfigurationObject="ba7dcb3b-b8b9-4d44-ab5f-56f7a228f10d">
     <name>Организация</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -107,7 +107,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="f7ded865-4e34-4cd1-9ea5-403e7b5df49a" extendedConfigurationObject="cc75100d-688a-42ed-a22d-dd728573cad6">
+  <attributes uuid="f6bf2790-51fe-43b6-9d4d-d1b9cd8a9040" extendedConfigurationObject="cc75100d-688a-42ed-a22d-dd728573cad6">
     <name>СтруктурнаяЕдиницаРезерв</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -120,7 +120,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="a7976902-b81c-4deb-88f9-a52b6dc818c8" extendedConfigurationObject="c5b7ecca-3342-40ee-8907-1b0f0c68a491">
+  <attributes uuid="40da3b04-c470-4851-8db0-78c10649eb08" extendedConfigurationObject="c5b7ecca-3342-40ee-8907-1b0f0c68a491">
     <name>СпособДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -133,7 +133,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="0f30ae0e-8d84-4a93-8afd-0a24660bd8f9" extendedConfigurationObject="1e32518d-1f43-4fae-bb80-578eb75fb538">
+  <attributes uuid="23bb1c1f-0660-426f-abaa-e8dd58570eae" extendedConfigurationObject="1e32518d-1f43-4fae-bb80-578eb75fb538">
     <name>ОжидаемаяДатаВручения</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -149,7 +149,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="b48f9240-d264-4de9-8693-c05e3238a38b" extendedConfigurationObject="5f53512a-270f-4a38-be26-aec7b9d89ead">
+  <attributes uuid="96c20110-ce2b-41c5-bb9a-eeb7342d84c4" extendedConfigurationObject="5f53512a-270f-4a38-be26-aec7b9d89ead">
     <name>ВремяДоставкиС</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -165,7 +165,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="882a372f-d8f3-4235-9135-3a73ff4696ae" extendedConfigurationObject="2661b775-837f-4bb5-9095-897d90b6d6d5">
+  <attributes uuid="6f8ea0a7-46b0-48e3-a1bc-ff606c7e7911" extendedConfigurationObject="2661b775-837f-4bb5-9095-897d90b6d6d5">
     <name>ВремяДоставкиПо</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -181,7 +181,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="0b90e439-92de-4c0c-9651-1015de479004" extendedConfigurationObject="a6f7c5df-c1a6-4349-819e-9ea05d5a4165">
+  <attributes uuid="028a015f-948c-4dd0-b84f-16907256cb55" extendedConfigurationObject="a6f7c5df-c1a6-4349-819e-9ea05d5a4165">
     <name>Грузоотправитель</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -194,7 +194,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="cb1a999b-2a2c-4fe1-abcb-9443b37ab1d4" extendedConfigurationObject="b46fbfc7-e318-4c26-827b-99d1af50ae6c">
+  <attributes uuid="6ebdae86-402b-4935-ab75-711c7145eee1" extendedConfigurationObject="b46fbfc7-e318-4c26-827b-99d1af50ae6c">
     <name>Грузополучатель</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -207,7 +207,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="82ac9c4c-0c18-4db4-9247-25e692e28e21" extendedConfigurationObject="a9208501-82e3-440e-b5d9-c5db36b9782d">
+  <attributes uuid="2e00cfdd-6ecd-4129-8c6f-6898c0200ad4" extendedConfigurationObject="a9208501-82e3-440e-b5d9-c5db36b9782d">
     <name>АдресДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -223,7 +223,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="2b90514d-e3ac-42d9-8fcc-3998218a4cfd" extendedConfigurationObject="3dfaa35d-c7a1-4f85-a3a2-cc1ba916da36">
+  <attributes uuid="430eb5e0-2a65-49b7-b60d-1cb861dcfce7" extendedConfigurationObject="3dfaa35d-c7a1-4f85-a3a2-cc1ba916da36">
     <name>ДополнительнаяИнформацияПоДоставке</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -237,7 +237,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="127878f3-5503-4113-b1bd-1206d3b03074" extendedConfigurationObject="59921b6a-7a85-41a3-8a29-b63f8baf2b28">
+  <attributes uuid="879d2c27-b6e7-4139-9309-d15be24d0af0" extendedConfigurationObject="59921b6a-7a85-41a3-8a29-b63f8baf2b28">
     <name>КонтактноеЛицо</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -251,7 +251,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="994b5f76-1c18-4bef-bd1a-a7c7185ab6f3" extendedConfigurationObject="32a16cfb-e789-4ff7-ac7f-903fae83159d">
+  <attributes uuid="9d4d2714-4424-4252-8fda-0a086ab9b542" extendedConfigurationObject="32a16cfb-e789-4ff7-ac7f-903fae83159d">
     <name>КонтактныйТелефон</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -265,7 +265,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="88823b17-7309-4556-8f1a-0b49e45c681a" extendedConfigurationObject="02d27418-e374-45e7-b46b-bfb796564486">
+  <attributes uuid="6078b257-1f0f-4e54-afc2-da6c0abbf48e" extendedConfigurationObject="02d27418-e374-45e7-b46b-bfb796564486">
     <name>ЗапаснойТелефон</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -279,7 +279,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="384032e0-7f6d-410d-bb3e-a909cef57ead" extendedConfigurationObject="43d0b2bb-1867-4394-9271-4bb9cdb62282">
+  <attributes uuid="c9ed1db6-44d7-4a30-9ead-5a72c016835e" extendedConfigurationObject="43d0b2bb-1867-4394-9271-4bb9cdb62282">
     <name>ПочтаПолучателя</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -293,7 +293,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="562731d0-c78f-4a82-a3ae-4d5255302d9f" extendedConfigurationObject="6cca43d9-9bfc-4988-8848-ee38e19bae8a">
+  <attributes uuid="ffd34295-63f9-4d12-91f9-0bbf22f03063" extendedConfigurationObject="6cca43d9-9bfc-4988-8848-ee38e19bae8a">
     <name>Длина</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -311,7 +311,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="8593cdd2-3d88-40b9-81ff-1e266935afde" extendedConfigurationObject="c13bf126-0fe4-48d0-8970-9de8b57607c6">
+  <attributes uuid="d5d24420-bb04-41e0-a9c2-7aaffbc75ebd" extendedConfigurationObject="c13bf126-0fe4-48d0-8970-9de8b57607c6">
     <name>Ширина</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -329,7 +329,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="7a244e38-f104-4287-92a7-7b6f65ab4206" extendedConfigurationObject="0894370c-3c45-4501-bf58-526cde6b78b0">
+  <attributes uuid="76259060-d312-4e08-8d39-b5a71017d3c1" extendedConfigurationObject="0894370c-3c45-4501-bf58-526cde6b78b0">
     <name>Высота</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -347,7 +347,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="c01e4a50-b7c3-4128-be3d-fabd542aff98" extendedConfigurationObject="28ba06ff-497d-4221-a73c-cfcd326425c1">
+  <attributes uuid="d62ae380-cb7e-4fcd-bd9f-c2c1ce44d927" extendedConfigurationObject="28ba06ff-497d-4221-a73c-cfcd326425c1">
     <name>ОбъявленнаяЦенность</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -364,7 +364,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="341dae68-250c-4d05-af1a-fc3483c704c6" extendedConfigurationObject="8f45e402-16cf-4c91-8898-d28dd358ea75">
+  <attributes uuid="272eb87b-f573-4c43-a64e-39c257e66e18" extendedConfigurationObject="8f45e402-16cf-4c91-8898-d28dd358ea75">
     <name>Объем</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -377,7 +377,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="3e8d24d1-e97a-41b9-b564-a15b381a66f0" extendedConfigurationObject="d2eeeef4-dd3b-4151-b7f9-46f5f9623778">
+  <attributes uuid="d0888af1-dab7-4567-aa79-620bd7500d1f" extendedConfigurationObject="d2eeeef4-dd3b-4151-b7f9-46f5f9623778">
     <name>Вес</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -390,7 +390,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="b96bb58b-774a-45c7-9601-a2fdfa41859f" extendedConfigurationObject="50db91c3-b54a-4b08-b790-e61068d5e08c">
+  <attributes uuid="cc411059-9be7-4aeb-a703-313d8412ec5c" extendedConfigurationObject="50db91c3-b54a-4b08-b790-e61068d5e08c">
     <name>СервисДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -403,7 +403,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="fd522241-5d41-4bc8-8be2-1345fc784fed" extendedConfigurationObject="9988c38c-7e4f-4609-82bb-54ec4a666b08">
+  <attributes uuid="38afede5-b3b4-4ea5-a077-275a62b44ac1" extendedConfigurationObject="9988c38c-7e4f-4609-82bb-54ec4a666b08">
     <name>ТрекНомер</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -417,7 +417,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="dda6960c-08ce-49c1-9f6b-f28fe49f33ca" extendedConfigurationObject="0c1c7386-8a70-431e-9007-5114e865d469">
+  <attributes uuid="ce8691ba-84b5-4f8a-a11d-e6011f3cb3da" extendedConfigurationObject="0c1c7386-8a70-431e-9007-5114e865d469">
     <name>СлужбаДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -430,7 +430,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="fa358e33-0364-42be-809e-1ce36d8a0cf5" extendedConfigurationObject="c8160045-cd73-4412-83ba-524064f0935b">
+  <attributes uuid="a60b85a1-a185-4090-89ee-491e9ff3b518" extendedConfigurationObject="c8160045-cd73-4412-83ba-524064f0935b">
     <name>Курьер</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -443,7 +443,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="2bcafdd1-0ad7-4fb0-8324-6c4e9d7c0487" extendedConfigurationObject="1a6f8cc9-3b70-455f-827e-97ec37be1b9a">
+  <attributes uuid="5247314d-3e29-41cc-848f-2f239dad8419" extendedConfigurationObject="1a6f8cc9-3b70-455f-827e-97ec37be1b9a">
     <name>ЗонаТариф</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -456,7 +456,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="7ee6daa7-f8a1-41c5-8f2a-4468c46ec9fa" extendedConfigurationObject="c3f448e2-e045-44a8-836a-ccc0f541990d">
+  <attributes uuid="8351efc8-d0fc-4cb9-9725-8252eb9df9c6" extendedConfigurationObject="c3f448e2-e045-44a8-836a-ccc0f541990d">
     <name>ПунктВыдачиЗаказа</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -469,7 +469,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="10b3718f-7abe-4be0-83f0-e1867e880cc6" extendedConfigurationObject="f2199f82-90c8-4137-a3a8-95f4278b0a3e">
+  <attributes uuid="364cf1ec-354d-4703-996a-bc79fbf1c2d9" extendedConfigurationObject="f2199f82-90c8-4137-a3a8-95f4278b0a3e">
     <name>НоменклатураДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -482,7 +482,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="f0d0cbc3-8627-4085-977b-c4e04492d2ad" extendedConfigurationObject="d5f361f9-efd1-4bb9-b758-b80e17c96565">
+  <attributes uuid="a2e112c7-3142-4f80-93d3-6fc70944a8d8" extendedConfigurationObject="d5f361f9-efd1-4bb9-b758-b80e17c96565">
     <name>СтоимостьДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -500,7 +500,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="0a980f27-0bee-4163-afcb-8df2c7d90bb3" extendedConfigurationObject="8926403e-9491-48c9-a7cd-17d57866294e">
+  <attributes uuid="cd652b7b-2745-4224-a128-8bb7b460d1b7" extendedConfigurationObject="8926403e-9491-48c9-a7cd-17d57866294e">
     <name>СебестоимостьДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -518,7 +518,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="2720242c-7c0e-494e-819c-322e7103c70c" extendedConfigurationObject="63be8476-392a-4f57-b074-2f8c0c5a58ec">
+  <attributes uuid="d5ac4065-db2d-4279-a101-4f9c924d0773" extendedConfigurationObject="63be8476-392a-4f57-b074-2f8c0c5a58ec">
     <name>СуммаНДСДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -536,7 +536,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="a8fe4814-2902-40da-9b9b-60482c06b8e8" extendedConfigurationObject="6f4dc270-36a5-4f32-b9eb-10729ceb9f71">
+  <attributes uuid="b5b5a509-8543-4e62-8e58-1a39871bb8e4" extendedConfigurationObject="6f4dc270-36a5-4f32-b9eb-10729ceb9f71">
     <name>СтавкаНДСДоставки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -549,7 +549,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="bde2e9c8-7980-4abe-b9f6-318f0c86d6dd" extendedConfigurationObject="a83a9f6f-42b4-47f7-a3fa-239d478073c0">
+  <attributes uuid="8fbe8930-7123-43a0-9214-7a27da35ca15" extendedConfigurationObject="a83a9f6f-42b4-47f7-a3fa-239d478073c0">
     <name>ЗапланироватьОплату</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -562,7 +562,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="bf93380f-995a-4e7c-a0e4-d44743cb65d7" extendedConfigurationObject="eb6369ed-d980-4c8a-b9c5-bb684afd3f2b">
+  <attributes uuid="d6e0c685-04ec-4c73-8df0-e91c7a259984" extendedConfigurationObject="eb6369ed-d980-4c8a-b9c5-bb684afd3f2b">
     <name>ТипДенежныхСредств</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -575,7 +575,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="0c9fe908-c164-44da-8833-0e1190ff9616" extendedConfigurationObject="571d8f35-5093-45ef-ac32-348e93ef2294">
+  <attributes uuid="4fbde6b7-21a3-4e90-9435-0d731d5b4b6e" extendedConfigurationObject="571d8f35-5093-45ef-ac32-348e93ef2294">
     <name>БанковскийСчет</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -588,7 +588,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="721c25a5-6d16-4049-b5a0-e1bae34b33de" extendedConfigurationObject="40b29a9d-d013-4561-9f2c-c88ad5a45fff">
+  <attributes uuid="404547b4-a69e-47fc-8c2a-a6abd0f4652a" extendedConfigurationObject="40b29a9d-d013-4561-9f2c-c88ad5a45fff">
     <name>Касса</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -601,7 +601,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="45b4ca88-077e-4f30-a075-ffd60ec22015" extendedConfigurationObject="326f8f0e-184e-4340-8412-1831f7183930">
+  <attributes uuid="ee7764c9-de05-4646-98bd-776bb01eff21" extendedConfigurationObject="326f8f0e-184e-4340-8412-1831f7183930">
     <name>СпособЗачетаПредоплаты</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -614,7 +614,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="2f75f2be-d5b8-46a9-b87b-229bbbfd4452" extendedConfigurationObject="affe3621-4455-4fe2-b270-9ebbcdaef7e7">
+  <attributes uuid="06604661-8a32-4cef-85b5-7c1dfe4eab60" extendedConfigurationObject="affe3621-4455-4fe2-b270-9ebbcdaef7e7">
     <name>ВидЭлектронногоДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -627,7 +627,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="e4b22022-6f23-47c7-b91f-d2fe8254c770" extendedConfigurationObject="39cd3d5b-31c2-4c40-9842-b206bf4f8df1">
+  <attributes uuid="799f00b0-b76e-4601-b8c8-5b88af73b2e6" extendedConfigurationObject="39cd3d5b-31c2-4c40-9842-b206bf4f8df1">
     <name>Ответственный</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -640,7 +640,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="46c0a222-b85b-48b1-97f6-2290ab947a91" extendedConfigurationObject="c037ce80-438d-4bd5-a229-6b1018139d89">
+  <attributes uuid="8a2bd3a6-41a9-4ee1-90da-b6cdc123b7d7" extendedConfigurationObject="c037ce80-438d-4bd5-a229-6b1018139d89">
     <name>СтруктурнаяЕдиницаПродажи</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -653,7 +653,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="377b3af0-a326-4af1-9e4f-f1725a12092e" extendedConfigurationObject="fbc829c4-1bcd-4808-b01b-6b36c9122563">
+  <attributes uuid="c29ddbd5-2b99-4a1f-8da3-21bea9b3db80" extendedConfigurationObject="fbc829c4-1bcd-4808-b01b-6b36c9122563">
     <name>Проект</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -666,7 +666,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="cb12a0bf-b702-48f2-9355-6d445b99de0b" extendedConfigurationObject="bb654696-0e2e-4a1e-b8dd-165d44099af9">
+  <attributes uuid="fa1d0a12-57b6-4457-9aa2-dcc4c81091c6" extendedConfigurationObject="bb654696-0e2e-4a1e-b8dd-165d44099af9">
     <name>КассаККМ</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -679,7 +679,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="eb3b81a2-43e4-4bbc-83c3-87ea774c951b" extendedConfigurationObject="481bb258-bbe5-4a53-89fc-2cdbf9bc1ed3">
+  <attributes uuid="dcfd35b8-56a4-43a3-bbfd-9fabf9a7320d" extendedConfigurationObject="481bb258-bbe5-4a53-89fc-2cdbf9bc1ed3">
     <name>Автор</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -692,7 +692,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="eb2fb9a0-14af-406c-a63b-23581d568270" extendedConfigurationObject="f634cf92-7612-4e05-b354-abc9d2d16c1b">
+  <attributes uuid="3a5ecb14-1ed7-4fc7-b004-3147fe273776" extendedConfigurationObject="f634cf92-7612-4e05-b354-abc9d2d16c1b">
     <name>ИсточникПривлечения</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -705,7 +705,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="0d4a41ca-d0bb-4d8c-93a0-3bfadcc17005" extendedConfigurationObject="76453cfb-cbad-4fd8-b92d-21fb31ff16b2">
+  <attributes uuid="8827a028-dd2d-4bff-a2fd-328f29b75107" extendedConfigurationObject="76453cfb-cbad-4fd8-b92d-21fb31ff16b2">
     <name>Событие</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -718,7 +718,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="df3da014-1ba8-4111-8058-0927f7318981" extendedConfigurationObject="770c91af-6239-4137-b6ae-11ae314e0f36">
+  <attributes uuid="87fa1d4e-da41-44ed-9a42-0a5fe8463ae9" extendedConfigurationObject="770c91af-6239-4137-b6ae-11ae314e0f36">
     <name>ВариантЗавершения</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -731,7 +731,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="f9b4bfff-aebe-4e1e-9dee-7a3cc6032eb1" extendedConfigurationObject="a5bd6e48-04c6-4b69-947f-5933fbd837ad">
+  <attributes uuid="70ce6ed1-4424-4660-aef3-56552f77259a" extendedConfigurationObject="a5bd6e48-04c6-4b69-947f-5933fbd837ad">
     <name>Заметки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -745,7 +745,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="eea14410-79d6-4d8d-8a69-b658a2888406" extendedConfigurationObject="53635dbc-e103-40e1-9d1c-bcf42439c3ef">
+  <attributes uuid="d281662b-4ca2-4661-919e-d75a662e43ca" extendedConfigurationObject="53635dbc-e103-40e1-9d1c-bcf42439c3ef">
     <name>ПричинаОтмены</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -758,7 +758,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="7639dca0-cb0e-4f54-aa50-21e994d4b294" extendedConfigurationObject="e31f38f0-d57f-4c04-a6ee-5e6e0e60f295">
+  <attributes uuid="84731f76-091d-4552-aa0b-f65f20645bb2" extendedConfigurationObject="e31f38f0-d57f-4c04-a6ee-5e6e0e60f295">
     <name>Комментарий</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -772,25 +772,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="a9b1e543-1594-413e-8390-5e7ba5950200">
-    <name>ЛБТ_Реквизит</name>
-    <synonym>
-      <key>ru</key>
-      <value>Реквизит</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="fa457392-d0fa-4449-83ac-0f11fd64a910" extendedConfigurationObject="ebb83fc7-27e0-4a96-8ec9-174b79894203">
+  <forms uuid="0a9fde4c-87ad-423e-8395-b3dce3d0a19f" extendedConfigurationObject="ebb83fc7-27e0-4a96-8ec9-174b79894203">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
@@ -798,17 +780,17 @@
       <form>Extended</form>
     </extension>
   </forms>
-  <tabularSections uuid="ea03260f-5234-4204-89e6-826000210f5c" extendedConfigurationObject="3827a494-db18-4d85-98ff-9376e84082d1">
+  <tabularSections uuid="9fd83a63-db93-4331-98c0-da9418a791d7" extendedConfigurationObject="3827a494-db18-4d85-98ff-9376e84082d1">
     <producedTypes>
-      <objectType typeId="e9ef9c9a-057c-495d-8e5c-b1cdcec84da9" valueTypeId="fcb3f1ca-40a6-46e5-b217-15f1a769194a"/>
-      <rowType typeId="d6c047df-1c53-4bad-a762-bcf0e211a576" valueTypeId="e23d5f93-8d7b-49f1-9e66-eee600ab4dee"/>
+      <objectType typeId="d3cf78ba-c78e-4db5-a616-34dd20b7fa23" valueTypeId="ed155dc6-8ddd-4fe7-911d-03c1c2c956e7"/>
+      <rowType typeId="ae1976f4-b874-4644-ad11-3b78b945bb3a" valueTypeId="bdac0da8-b6cf-40bd-9047-1ff89d90961f"/>
     </producedTypes>
     <name>Запасы</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="94f19446-147a-43ba-bea5-2a2167640faf" extendedConfigurationObject="d5e57fa8-e7c7-49b0-aed8-853fab12f4cd">
+    <attributes uuid="5c79d0fd-dcf4-4315-9cca-cec4f006d29b" extendedConfigurationObject="d5e57fa8-e7c7-49b0-aed8-853fab12f4cd">
       <name>ЭтоРазделитель</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -821,7 +803,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="8ada0498-93a6-4bdb-9b77-a85eb16e6067" extendedConfigurationObject="28f6394b-43df-422c-bc24-88973f4e6c54">
+    <attributes uuid="11840795-ee3e-45d2-b99a-456c21f6281e" extendedConfigurationObject="28f6394b-43df-422c-bc24-88973f4e6c54">
       <name>Номенклатура</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -834,7 +816,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="fe34216c-beeb-4c6e-a0dc-e6be923da0b7" extendedConfigurationObject="0aca9fa6-afb0-4514-962d-331ac296b043">
+    <attributes uuid="1a34fb40-81e6-46ee-9d66-690c980c1720" extendedConfigurationObject="0aca9fa6-afb0-4514-962d-331ac296b043">
       <name>Характеристика</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -847,7 +829,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="d1ad2bd6-a8b0-41fb-88bb-78cf3012f120" extendedConfigurationObject="a388309a-394f-4bbc-bc04-855057b75dee">
+    <attributes uuid="eaf54d78-ea53-47e4-bf23-7c7140e7f20d" extendedConfigurationObject="a388309a-394f-4bbc-bc04-855057b75dee">
       <name>Партия</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -860,7 +842,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="59313807-9556-4218-93f2-6889d360e8ee" extendedConfigurationObject="477bf1f3-1679-405d-b548-1e8f88643294">
+    <attributes uuid="ef51c3cf-e47f-4ee3-8a5c-85dbe00110a5" extendedConfigurationObject="477bf1f3-1679-405d-b548-1e8f88643294">
       <name>Содержание</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -874,7 +856,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="2ffeb40a-14a0-4e1a-a4e7-2655e822b376" extendedConfigurationObject="dcc0869d-4549-4e63-9129-192f6767f91f">
+    <attributes uuid="be1a6763-2a34-41cd-9769-964562e22e67" extendedConfigurationObject="dcc0869d-4549-4e63-9129-192f6767f91f">
       <name>СерииНоменклатуры</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -890,7 +872,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="03740261-45ce-4127-9ec6-0fb26ae85d98" extendedConfigurationObject="eab6261f-3bbf-4b7b-a320-ba7c54502cf0">
+    <attributes uuid="728207db-6923-47bc-a4b7-759f3ec7d87b" extendedConfigurationObject="eab6261f-3bbf-4b7b-a320-ba7c54502cf0">
       <name>Количество</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -908,7 +890,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="1810f909-675b-497a-9276-9e31e4779bb4" extendedConfigurationObject="2568f0bb-59be-4a81-b5bb-e1bb9f497e94">
+    <attributes uuid="3fd2074e-5c03-4373-a27a-2438ae0d44e6" extendedConfigurationObject="2568f0bb-59be-4a81-b5bb-e1bb9f497e94">
       <name>КоличествоСобрано</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -926,7 +908,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="8b15bd09-b90c-431b-aa19-036ee065efb0" extendedConfigurationObject="e64cc8ee-4dc5-480c-acb0-145322d9d2ae">
+    <attributes uuid="f9bbeeb3-6d69-4bef-8411-0e134ba30e2a" extendedConfigurationObject="e64cc8ee-4dc5-480c-acb0-145322d9d2ae">
       <name>ЕдиницаИзмерения</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -939,7 +921,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="8ab99db0-3dc4-4cba-b9b0-7fa5f56dacdf" extendedConfigurationObject="2bf717df-ff11-40be-ae4a-83f7dd05a082">
+    <attributes uuid="46ea714c-e956-41ce-8e08-553e870a1133" extendedConfigurationObject="2bf717df-ff11-40be-ae4a-83f7dd05a082">
       <name>Резерв</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -957,7 +939,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="7b9c7f08-a034-4d77-bd43-e537d731830c" extendedConfigurationObject="19d5f2d1-c224-48bb-a8f7-b6758e0dbbd6">
+    <attributes uuid="3b7cfc59-8ea2-499b-9935-316a88b1075b" extendedConfigurationObject="19d5f2d1-c224-48bb-a8f7-b6758e0dbbd6">
       <name>СтруктурнаяЕдиницаРезерв</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -970,7 +952,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="7625b057-c724-4b54-9f75-8755fee8be1d" extendedConfigurationObject="bd365b51-d408-43d0-b319-57a41944d0b9">
+    <attributes uuid="42221540-8446-46ea-a7f3-5b4617271ca7" extendedConfigurationObject="bd365b51-d408-43d0-b319-57a41944d0b9">
       <name>Цена</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -988,7 +970,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="bff441dd-7312-4e87-a52b-a5669e45f7f5" extendedConfigurationObject="1da95e3c-ae47-49a0-a408-6ea4d423ca4e">
+    <attributes uuid="87183203-9354-4422-803e-240cd9f28e93" extendedConfigurationObject="1da95e3c-ae47-49a0-a408-6ea4d423ca4e">
       <name>ПроцентАвтоматическойСкидки</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1005,7 +987,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="2247f58c-12ae-495b-bd24-e0e6b9611f49" extendedConfigurationObject="14dd83f1-526e-4138-9fda-51ee19bf4e6a">
+    <attributes uuid="87994b49-db64-4d3a-9748-c042a392b724" extendedConfigurationObject="14dd83f1-526e-4138-9fda-51ee19bf4e6a">
       <name>СуммаАвтоматическойСкидки</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1022,7 +1004,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="5faa87a6-9362-4739-ada7-5a9835e0f196" extendedConfigurationObject="1b952e91-590b-4961-95ec-a46c11bd9abf">
+    <attributes uuid="e63f0fb6-9268-4e10-925b-a410d1a91ec8" extendedConfigurationObject="1b952e91-590b-4961-95ec-a46c11bd9abf">
       <name>ПроцентСкидкиНаценки</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1039,7 +1021,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="dce29402-2643-49df-8082-c0fbf8d8bfdb" extendedConfigurationObject="2626be4a-89c5-4fcd-ae90-d010648281f0">
+    <attributes uuid="366e6f96-189e-4fb5-9bef-a9d63ac7aeab" extendedConfigurationObject="2626be4a-89c5-4fcd-ae90-d010648281f0">
       <name>СуммаСкидкиНаценки</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1056,7 +1038,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="380ea051-bbea-43df-9261-64e81efc922b" extendedConfigurationObject="248cc792-8c61-4135-bb26-5992b34142cd">
+    <attributes uuid="de43017c-f003-4e40-b880-ce4d80625d9f" extendedConfigurationObject="248cc792-8c61-4135-bb26-5992b34142cd">
       <name>СуммаСкидкиОплатыБонусом</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1073,7 +1055,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="d1e0cb9f-9012-487f-872f-8285e843713a" extendedConfigurationObject="8a221069-5758-4a3a-bd23-c768badd2b91">
+    <attributes uuid="fa250d3e-e87a-40d2-837f-965d99d495c0" extendedConfigurationObject="8a221069-5758-4a3a-bd23-c768badd2b91">
       <name>Сумма</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1091,7 +1073,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="98e062d0-1fcc-401b-a935-d4014421b862" extendedConfigurationObject="55672676-5c6d-41a6-86f0-74444c834892">
+    <attributes uuid="51cea4bf-3b8f-46f1-9004-fa267ed7fab3" extendedConfigurationObject="55672676-5c6d-41a6-86f0-74444c834892">
       <name>СтавкаНДС</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1104,7 +1086,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="e925adb4-2268-41ef-bc16-93c35f06f257" extendedConfigurationObject="5ade3171-7f5a-4acd-b40f-4d64c9c01f91">
+    <attributes uuid="616253a1-867b-4dc5-b1e6-65a6e9fbbd1f" extendedConfigurationObject="5ade3171-7f5a-4acd-b40f-4d64c9c01f91">
       <name>СуммаНДС</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1122,7 +1104,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="d064299b-539a-4603-8e82-ca47cd8131e0" extendedConfigurationObject="a90219fb-0f6b-4251-a2cd-9cbdef234592">
+    <attributes uuid="b5451803-e345-42f9-a5b2-738fdee868e3" extendedConfigurationObject="a90219fb-0f6b-4251-a2cd-9cbdef234592">
       <name>Всего</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1140,7 +1122,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="754c2b47-d820-4b04-bfac-974d218f1a6c" extendedConfigurationObject="8a7d406d-4553-46fc-8a57-c9f52497fcb6">
+    <attributes uuid="f0671bd1-5da1-4583-8a2b-8ed04032f918" extendedConfigurationObject="8a7d406d-4553-46fc-8a57-c9f52497fcb6">
       <name>ДатаОтгрузки</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1156,7 +1138,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="782f1473-6722-4f5d-95bd-717e69f7a567" extendedConfigurationObject="0d289408-0c0c-473b-8077-1f71f13dce96">
+    <attributes uuid="fd91324d-4550-4912-91b1-46092b0683c5" extendedConfigurationObject="0d289408-0c0c-473b-8077-1f71f13dce96">
       <name>Спецификация</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1169,7 +1151,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="ae9bfe66-6355-4a25-9941-0ef53c475386" extendedConfigurationObject="97e4302d-b36e-410d-ba77-a3719ba36e4c">
+    <attributes uuid="df9f0713-e681-47dd-9c5a-1f0e815c894a" extendedConfigurationObject="97e4302d-b36e-410d-ba77-a3719ba36e4c">
       <name>Вес</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1182,7 +1164,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="4d0ab539-ff56-401a-8493-56ff1205a2d0" extendedConfigurationObject="a4eae1d8-a504-49cf-b35a-d7c99abc0c08">
+    <attributes uuid="30b6a8b7-6c0e-407b-a232-a78fd83cc4c1" extendedConfigurationObject="a4eae1d8-a504-49cf-b35a-d7c99abc0c08">
       <name>Объем</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1196,17 +1178,17 @@
       </extension>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="6a2952ec-0fab-497d-9d88-102d5a7f2b30" extendedConfigurationObject="ce366ca2-b536-4bdf-9cb0-06ad083de860">
+  <tabularSections uuid="a2ff0a03-9930-4ff2-8639-f46852f24df6" extendedConfigurationObject="ce366ca2-b536-4bdf-9cb0-06ad083de860">
     <producedTypes>
-      <objectType typeId="156ed1e1-1a8d-41c8-a9cb-b292ec7e685a" valueTypeId="d165a4c7-83ae-458d-ae9f-90d6f34c55fc"/>
-      <rowType typeId="e20a3fde-acf1-4784-ba60-0544c2fcee36" valueTypeId="ad4e75d4-fe86-4978-a55b-a3f6f54cfda1"/>
+      <objectType typeId="aee59a5d-905a-4de8-8c2a-312cd30701c7" valueTypeId="a5c4b341-a053-4786-bab0-9317b80dab46"/>
+      <rowType typeId="bd30d67c-8a9f-4167-a9cd-d5223c5a13ee" valueTypeId="12bdf89c-3bad-48ed-b120-1b7435a89997"/>
     </producedTypes>
     <name>ОтмененныеЗапасы</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="b8d79d96-9ca0-4116-ad22-7bd46ffa460d" extendedConfigurationObject="431aa156-0db3-4a8f-bac6-6e454d9f9ad4">
+    <attributes uuid="64fb16b3-85b2-44c2-91aa-daf6db553460" extendedConfigurationObject="431aa156-0db3-4a8f-bac6-6e454d9f9ad4">
       <name>ПричинаОтмены</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1219,7 +1201,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="af1fad8c-57ee-4b26-b430-262bd6e76e12" extendedConfigurationObject="13b01d51-7eeb-4125-8955-f006d69af5cd">
+    <attributes uuid="e996a629-74a5-481e-a60d-c0730a7d07ca" extendedConfigurationObject="13b01d51-7eeb-4125-8955-f006d69af5cd">
       <name>Номенклатура</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1232,7 +1214,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="64c438d4-53d2-4fe4-a56e-94e7bc1736b0" extendedConfigurationObject="bdd16cbc-80a6-462a-a404-2ccc5f7ecad1">
+    <attributes uuid="e150f9cd-7f0a-4841-8cd0-f871ee5a899b" extendedConfigurationObject="bdd16cbc-80a6-462a-a404-2ccc5f7ecad1">
       <name>Характеристика</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1245,7 +1227,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="69831107-517c-4576-bfe3-2b3cc557f7f4" extendedConfigurationObject="d09cc558-e51c-4f27-bdd9-a7c75af295e8">
+    <attributes uuid="2e644b1a-1749-41a3-84ea-b026ed188f63" extendedConfigurationObject="d09cc558-e51c-4f27-bdd9-a7c75af295e8">
       <name>Количество</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1263,7 +1245,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="7b458703-ddb4-4611-8c5e-74832e4914e2" extendedConfigurationObject="3530187d-c564-4d2f-8121-4ceb4a59e9ce">
+    <attributes uuid="4eea2df1-37d1-4cce-b7d7-7f9b53b0a0e5" extendedConfigurationObject="3530187d-c564-4d2f-8121-4ceb4a59e9ce">
       <name>ЕдиницаИзмерения</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1276,7 +1258,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="0fe96179-07fe-41bf-8638-d333ba0dd17d" extendedConfigurationObject="77c6b930-ce90-40e3-9fd6-6577c702c9cc">
+    <attributes uuid="18805dfb-4fb8-4b95-a445-7390a4031a62" extendedConfigurationObject="77c6b930-ce90-40e3-9fd6-6577c702c9cc">
       <name>Цена</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1294,7 +1276,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="0598b419-e958-4657-8d55-98eb5823b1f2" extendedConfigurationObject="585bbec3-ca52-4b75-a41d-f41ac72be941">
+    <attributes uuid="93d3e92c-c5f5-470d-8573-c1cb66cb9563" extendedConfigurationObject="585bbec3-ca52-4b75-a41d-f41ac72be941">
       <name>СерииНоменклатуры</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1310,7 +1292,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="af2eade1-0bb1-437c-9964-d0065e0784a1" extendedConfigurationObject="2579f499-fffa-4e9c-9410-bb37682615a1">
+    <attributes uuid="61da00d1-2e96-4509-bbee-a6eaa14a2f43" extendedConfigurationObject="2579f499-fffa-4e9c-9410-bb37682615a1">
       <name>Спецификация</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1323,7 +1305,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="5a767f67-6617-4fe3-858a-0362594f26e6" extendedConfigurationObject="2d277bfa-89ca-4314-8914-347fdffd0dca">
+    <attributes uuid="b9851470-9b24-46a9-982a-a32c5e06bcb6" extendedConfigurationObject="2d277bfa-89ca-4314-8914-347fdffd0dca">
       <name>СтранаПроисхождения</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1336,7 +1318,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="fc9f910c-8360-4cc6-8a00-85e2373ca2c2" extendedConfigurationObject="024b6e1c-a48c-4285-bcf8-5050fcaf9dc2">
+    <attributes uuid="66387753-0d35-448f-a5f3-207e89adb80b" extendedConfigurationObject="024b6e1c-a48c-4285-bcf8-5050fcaf9dc2">
       <name>Партия</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1349,7 +1331,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="874cbfda-e291-4762-b558-2f08fd48cd8d" extendedConfigurationObject="46649eb6-4f3a-4cda-beb7-f41f47682a1d">
+    <attributes uuid="852a981b-16d4-48b7-b83f-246fe4c409fb" extendedConfigurationObject="46649eb6-4f3a-4cda-beb7-f41f47682a1d">
       <name>ДатаОтмены</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1363,7 +1345,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="855c98ae-8a22-4911-9c74-241207860dba" extendedConfigurationObject="ed2a4e2c-f4da-4de2-b4b7-bbc9efcab9ef">
+    <attributes uuid="ae754375-02e4-4930-8e74-127652b4221d" extendedConfigurationObject="ed2a4e2c-f4da-4de2-b4b7-bbc9efcab9ef">
       <name>Автор</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1377,17 +1359,17 @@
       </extension>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="7b59b63f-ce80-4d2f-904b-37730e313c5a" extendedConfigurationObject="0eb66dc4-bef5-4b4d-a222-14126bcfff79">
+  <tabularSections uuid="c5cb80a7-6773-49f8-b30a-61dbd627ce7a" extendedConfigurationObject="0eb66dc4-bef5-4b4d-a222-14126bcfff79">
     <producedTypes>
-      <objectType typeId="4b719883-3ecd-4560-a844-1dccc6836038" valueTypeId="c97843ea-6f6e-43e8-82bc-691dac7d676f"/>
-      <rowType typeId="fab1413f-ced7-4c09-ac01-e1145383c2a9" valueTypeId="6ba8da28-78a0-43f3-a614-8a34c40fee9a"/>
+      <objectType typeId="4fc62bc9-591a-4ed0-a2f8-dec871ffd8ed" valueTypeId="dc58b31c-b958-446e-8a14-af8a98551749"/>
+      <rowType typeId="b7445980-bd4a-46fa-a857-e9158996dcdc" valueTypeId="3481a2da-c556-4fdf-99b3-5706776b3e50"/>
     </producedTypes>
     <name>МатериалыЗаказчика</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="962203d7-ec38-41f4-8578-b234303ed80e" extendedConfigurationObject="6833bee3-8916-4bc2-b004-d9626f603832">
+    <attributes uuid="e075469e-1c5e-471e-ad76-2f98ca0a91e7" extendedConfigurationObject="6833bee3-8916-4bc2-b004-d9626f603832">
       <name>Номенклатура</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1400,7 +1382,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="6f5772eb-70f9-4a42-a360-08851566bc2f" extendedConfigurationObject="8fa05e9e-f713-48ca-a2af-84748539fe15">
+    <attributes uuid="a0f608fe-a084-4cb4-bc91-acfee36a65be" extendedConfigurationObject="8fa05e9e-f713-48ca-a2af-84748539fe15">
       <name>Характеристика</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1413,7 +1395,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="c472edb5-1374-4708-98f0-a0c47aa0034a" extendedConfigurationObject="5c06e3c8-6e92-41b9-ae30-89c652646048">
+    <attributes uuid="b40bb0bc-41b1-4477-847f-d1cb4b6c8916" extendedConfigurationObject="5c06e3c8-6e92-41b9-ae30-89c652646048">
       <name>Количество</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1431,7 +1413,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="9959bdc3-df3b-4182-96e6-93dd36586968" extendedConfigurationObject="440c9447-52ea-4bc5-a6f5-40e8a13c1b56">
+    <attributes uuid="a59190a2-62ea-4baa-b000-13db1b13f35a" extendedConfigurationObject="440c9447-52ea-4bc5-a6f5-40e8a13c1b56">
       <name>ЕдиницаИзмерения</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1444,7 +1426,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="e5de7dac-2aba-45ce-9ef2-727adf71c261" extendedConfigurationObject="c1f48eee-6f5e-47c8-87f2-ace79daed66d">
+    <attributes uuid="b35a9e08-fd57-400b-b81a-496b5ad7111b" extendedConfigurationObject="c1f48eee-6f5e-47c8-87f2-ace79daed66d">
       <name>ДатаПоступления</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1461,17 +1443,17 @@
       </extension>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="346e8a88-4602-4210-a374-0e24d6256f56" extendedConfigurationObject="7967632a-212c-41f7-8651-8b610fe73748">
+  <tabularSections uuid="4044ba0a-c94a-4461-9fba-e430b4c4732f" extendedConfigurationObject="7967632a-212c-41f7-8651-8b610fe73748">
     <producedTypes>
-      <objectType typeId="dcff696d-09ba-487a-b28f-18e77bad4e4f" valueTypeId="3c032df0-a163-4c47-b50e-cc4735d20a84"/>
-      <rowType typeId="ea1e64ba-426e-4a97-bfac-d0e66ef8c864" valueTypeId="8d68c63f-f0c3-4f27-b0fa-7ca65a46fe58"/>
+      <objectType typeId="3e7df441-db74-437a-8a1e-7ed358932dd1" valueTypeId="5c80edb3-3ae0-48a0-9f04-a45b8d34058a"/>
+      <rowType typeId="8b410ce6-b495-4e25-ac28-e68adbab3b13" valueTypeId="34504654-027c-4485-9896-c1646ab5cf22"/>
     </producedTypes>
     <name>Подарки</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="edacbfd5-7a04-4337-95e6-f5ff4080c469" extendedConfigurationObject="5ccb193f-28af-4d49-a031-e8b6a5d4c821">
+    <attributes uuid="92fe2faa-b102-491a-911d-6ae0e555accd" extendedConfigurationObject="5ccb193f-28af-4d49-a031-e8b6a5d4c821">
       <name>СкидкаНаценка</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1484,7 +1466,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="3c45dad9-fe3b-44fb-b8a9-b212c7bf08a3" extendedConfigurationObject="412fe73a-6005-4507-97be-ae7947d87f2a">
+    <attributes uuid="f477e4e0-ae64-4270-a855-ca63a3b0d9b8" extendedConfigurationObject="412fe73a-6005-4507-97be-ae7947d87f2a">
       <name>Номенклатура</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1497,7 +1479,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="d06ff34d-0e43-49a8-8ad5-3171323a71e2" extendedConfigurationObject="f638f2bd-7ddb-4992-9aef-119a3ca971ef">
+    <attributes uuid="0cc73be0-9725-4d32-b4e7-00406a8840e8" extendedConfigurationObject="f638f2bd-7ddb-4992-9aef-119a3ca971ef">
       <name>Характеристика</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1510,7 +1492,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="d3af12d5-56aa-45b1-b229-2ea87e2b32fb" extendedConfigurationObject="e8a9b26a-5239-4a6d-b0d3-b2dd082ac9f7">
+    <attributes uuid="27bb6df6-479d-44c8-a86d-047fd4929ded" extendedConfigurationObject="e8a9b26a-5239-4a6d-b0d3-b2dd082ac9f7">
       <name>СтатусУказанияСерий</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1527,7 +1509,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="75d70986-c1d4-4fc9-b990-52ae550bbba4" extendedConfigurationObject="a0c7887e-daa3-427d-a8af-8c8af1f59c28">
+    <attributes uuid="f533a820-fea3-4301-aa7b-f7cee6b890bb" extendedConfigurationObject="a0c7887e-daa3-427d-a8af-8c8af1f59c28">
       <name>СерииНоменклатуры</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1543,7 +1525,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="67f878e0-232d-48a8-9688-98739a507af6" extendedConfigurationObject="e16876cf-a899-4990-afa2-c5083a9d9d70">
+    <attributes uuid="62f61782-13ce-494b-8a0d-1b75f978cf9a" extendedConfigurationObject="e16876cf-a899-4990-afa2-c5083a9d9d70">
       <name>Количество</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1560,7 +1542,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="05383426-3714-49f3-b48e-8d38d7508cb3" extendedConfigurationObject="46d51740-c3f2-4755-88c1-d49f6e2e827e">
+    <attributes uuid="eb426ba7-2238-4240-ac40-a6b8965a8387" extendedConfigurationObject="46d51740-c3f2-4755-88c1-d49f6e2e827e">
       <name>ЕдиницаИзмерения</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1573,7 +1555,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="c0c04b0c-47e8-47dd-b5b2-ce10cdc2f5e6" extendedConfigurationObject="ba897ebf-b91c-47ab-a915-9c8db8a29d8f">
+    <attributes uuid="3ec0e38f-156f-43fc-a15a-6c7514e42f34" extendedConfigurationObject="ba897ebf-b91c-47ab-a915-9c8db8a29d8f">
       <name>СтруктурнаяЕдиница</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1587,17 +1569,17 @@
       </extension>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="2e133f4f-4a49-47c5-add4-b1c06d25f7d4" extendedConfigurationObject="95451f70-913e-41d6-b085-3344da2c4ccd">
+  <tabularSections uuid="c4f23de5-0e6d-4f88-8fb7-5a3bdadae358" extendedConfigurationObject="95451f70-913e-41d6-b085-3344da2c4ccd">
     <producedTypes>
-      <objectType typeId="87ea4e68-5cf9-402e-8146-13d5336eb460" valueTypeId="22e00c41-9d4c-463b-a93a-8e7d5027054b"/>
-      <rowType typeId="e75a71b0-b752-460c-82ae-a2945f194d42" valueTypeId="6fd439c0-c451-4721-8310-4f8777380924"/>
+      <objectType typeId="a7daaa06-ace4-41a6-8949-cf5d4341182c" valueTypeId="724ac11b-14f8-47fa-8077-726dad87caae"/>
+      <rowType typeId="32878202-70c7-4e76-9320-548a5947d9ce" valueTypeId="a335fe7c-1a5d-4e35-b7d3-a8cc44a6f0ed"/>
     </producedTypes>
     <name>ПлатежныйКалендарь</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="d5ea9012-1b77-4b8d-8dd2-027743edc754" extendedConfigurationObject="99040b87-6df0-455a-8b08-79acc8f0cc70">
+    <attributes uuid="bad71be1-85b6-407f-ac4a-a5ed497b6de2" extendedConfigurationObject="99040b87-6df0-455a-8b08-79acc8f0cc70">
       <name>ПроцентОплаты</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1615,7 +1597,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="8108d682-fd6f-4b85-88a1-329f5ce1a6e5" extendedConfigurationObject="20eb0b38-554c-409b-af6d-16bf6891a5d6">
+    <attributes uuid="69cea6e2-074c-461e-b8a1-6e4fab133ed2" extendedConfigurationObject="20eb0b38-554c-409b-af6d-16bf6891a5d6">
       <name>СуммаОплаты</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1633,7 +1615,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="d298af82-8508-45a5-85d8-c40e6880a227" extendedConfigurationObject="930fa6ec-391b-4733-bcfc-1b9544a55430">
+    <attributes uuid="6a3fa3da-ab4d-4fdc-a925-8c66b47d98aa" extendedConfigurationObject="930fa6ec-391b-4733-bcfc-1b9544a55430">
       <name>СуммаНДСОплаты</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1651,7 +1633,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="54882285-457d-4dd6-b751-fca39f777f7c" extendedConfigurationObject="d09b4d40-c1b4-4194-88df-7701dad4665d">
+    <attributes uuid="46199913-9645-40a3-8f7d-c8bc8b1a2b2f" extendedConfigurationObject="d09b4d40-c1b4-4194-88df-7701dad4665d">
       <name>ДатаОплаты</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1667,7 +1649,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="cafea2e7-6353-495f-af2d-242de66b9038" extendedConfigurationObject="0fe9b3aa-af58-4f62-b49c-d3095e70df79">
+    <attributes uuid="8151aab6-bdf4-43a3-b2f7-e53f202d84e1" extendedConfigurationObject="0fe9b3aa-af58-4f62-b49c-d3095e70df79">
       <name>Постфикс</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1684,17 +1666,17 @@
       </extension>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="dd90e373-84dc-4bbd-8b07-7169a4b75e7b" extendedConfigurationObject="416b9b00-f558-4cb4-bf34-1235e675d88d">
+  <tabularSections uuid="aed6ac4a-9d89-434a-874c-64d0f4f0b005" extendedConfigurationObject="416b9b00-f558-4cb4-bf34-1235e675d88d">
     <producedTypes>
-      <objectType typeId="53e38ebf-a39f-415a-9524-18f8a2ce917e" valueTypeId="b1fc2d04-a3be-400e-b322-0eb39c4d66de"/>
-      <rowType typeId="2cca78d5-e9c9-4205-8cef-cfdd6f227fb1" valueTypeId="1473b29e-1a91-4f25-8ded-a9bd669acd6d"/>
+      <objectType typeId="81682144-a373-4886-b318-d01f1b48bfca" valueTypeId="09d41445-a4dc-4485-93bd-524fba66ebed"/>
+      <rowType typeId="1e396a9f-bd04-47e0-8c94-b8613b835275" valueTypeId="9fdaaee1-f119-4615-8e8c-9a89feaadbb3"/>
     </producedTypes>
     <name>Предоплата</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="752321cc-6ca3-4ae2-b22a-132430240e6c" extendedConfigurationObject="4eb19b5c-c5e9-4725-9207-74beac280879">
+    <attributes uuid="71109483-eb4f-448e-8c90-4b1f98b39793" extendedConfigurationObject="4eb19b5c-c5e9-4725-9207-74beac280879">
       <name>Документ</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1707,7 +1689,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="980361cf-d3b2-422c-8019-fd74cd8b2726" extendedConfigurationObject="fa9fbd96-9b69-4894-8eff-fb0cb80f14b7">
+    <attributes uuid="f0b1889e-2fe5-4419-af15-68d38196042d" extendedConfigurationObject="fa9fbd96-9b69-4894-8eff-fb0cb80f14b7">
       <name>СуммаРасчетов</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1725,7 +1707,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="be58bdd4-7bce-43a6-b368-4d8df436f06b" extendedConfigurationObject="951b9da6-d2c3-4383-8b6d-2cac90dbb1b9">
+    <attributes uuid="81234ce3-1664-4366-bfe1-2818f0e19da7" extendedConfigurationObject="951b9da6-d2c3-4383-8b6d-2cac90dbb1b9">
       <name>Курс</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1743,7 +1725,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="43b450a3-7df5-41ac-946a-06fea37308e6" extendedConfigurationObject="f977176c-76a8-4c00-9a92-dc2cb99a9a72">
+    <attributes uuid="d0bb0a8e-79b7-49dc-ba04-c9a53110201c" extendedConfigurationObject="f977176c-76a8-4c00-9a92-dc2cb99a9a72">
       <name>Кратность</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1760,7 +1742,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="625e21f0-3b8d-4d98-ac80-cf38e52c7d10" extendedConfigurationObject="90f76cb7-7a75-40ba-83b5-1edd6343f563">
+    <attributes uuid="dd405a2c-d5bc-4ca5-8f1d-fbe572f1c47b" extendedConfigurationObject="90f76cb7-7a75-40ba-83b5-1edd6343f563">
       <name>СуммаПлатежа</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1779,17 +1761,17 @@
       </extension>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="e1a136ac-18f2-4d70-9f10-b8c590b7f350" extendedConfigurationObject="8cfde873-abe1-43a3-a913-192716158594">
+  <tabularSections uuid="b32bd421-a329-4f62-b709-90aa945328d3" extendedConfigurationObject="8cfde873-abe1-43a3-a913-192716158594">
     <producedTypes>
-      <objectType typeId="fce55ab9-5ab3-4efe-9e96-877526605241" valueTypeId="55b07221-3ebb-46fc-8213-f2beed0ee6cb"/>
-      <rowType typeId="b5bac48c-eee9-46ce-9b89-fdc6dd8f1ff7" valueTypeId="ac86ac51-8356-4181-9ead-5f33904cb360"/>
+      <objectType typeId="94280676-b47e-4031-8e98-b2476c8925b1" valueTypeId="70b9a389-c913-49ce-a415-ca02e9756cff"/>
+      <rowType typeId="78f598f5-6fff-43c8-8f9c-ed6d05ad1bfd" valueTypeId="94d58a10-7026-48d8-8898-733d7d0c3a41"/>
     </producedTypes>
     <name>БонусныеБаллыКНачислению</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="6eec41b4-d73f-470c-94a4-076f580c63d2" extendedConfigurationObject="4a436df4-fb4b-4bfa-9d58-e18f7900e3e7">
+    <attributes uuid="2b1fdfd6-f051-44f0-a517-be9e5cf1269c" extendedConfigurationObject="4a436df4-fb4b-4bfa-9d58-e18f7900e3e7">
       <name>КлючСвязи</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1806,7 +1788,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="3186a3b2-0f66-480f-9c34-58f7cb248967" extendedConfigurationObject="ca5f50bd-6dc2-4639-a331-bf95b2275b07">
+    <attributes uuid="217bb8aa-bece-4246-84f5-2fac322b0915" extendedConfigurationObject="ca5f50bd-6dc2-4639-a331-bf95b2275b07">
       <name>СкидкаНаценка</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1819,7 +1801,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="965c7464-4f97-4113-9c8a-adffe0226eeb" extendedConfigurationObject="d8d7d3f5-c03c-4cd5-a1b7-a47be0219748">
+    <attributes uuid="f307ea07-c567-4cdf-982a-39a7b427792b" extendedConfigurationObject="d8d7d3f5-c03c-4cd5-a1b7-a47be0219748">
       <name>КоличествоБонусныхБаллов</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1836,7 +1818,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="341c13f0-4519-4a4f-9e5d-23beb26a7220" extendedConfigurationObject="5e7988f7-b205-406a-b210-c67fcc278d55">
+    <attributes uuid="95c3d473-6958-425e-88b8-1ef4c871c454" extendedConfigurationObject="5e7988f7-b205-406a-b210-c67fcc278d55">
       <name>ДатаНачисления</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -1852,7 +1834,7 @@
         </typeExtension>
       </extension>
     </attributes>
-    <attributes uuid="b4260ff2-8bad-495c-954f-ab91ab05b79d" extendedConfigurationObject="9a806c41-38cf-4029-afbf-3f4840a3f463">
+    <attributes uuid="897d5ddc-e332-43c3-829c-3651af8f40ad" extendedConfigurationObject="9a806c41-38cf-4029-afbf-3f4840a3f463">
       <name>ДатаСписания</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">

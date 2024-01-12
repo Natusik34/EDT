@@ -22222,7 +22222,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1000003</id>
+    <id>1000001</id>
     <valueType>
       <types>DocumentObject.ЗаказПокупателя</types>
     </valueType>
