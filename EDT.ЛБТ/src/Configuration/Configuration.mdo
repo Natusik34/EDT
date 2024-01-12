@@ -51,12 +51,28 @@
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
   <styleItems>StyleItem.СветлыйСерый</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
+  <styleItems>StyleItem.ЦветГиперссылки</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.КоллекцияФлаги</commonPictures>
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
+  <commonPictures>CommonPicture.ВвестиКупон</commonPictures>
+  <commonPictures>CommonPicture.ПодчиненныеЭлементы</commonPictures>
+  <commonPictures>CommonPicture.СтатусыСерийНоменклатуры</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияТелефонУНФ</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияЭлПочта</commonPictures>
+  <commonPictures>CommonPicture.ВниманиеВВидеТреугольника</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.Информация32</commonPictures>
   <roles>Role.ЛБТ_ОсновнаяРоль</roles>
   <functionalOptions>FunctionalOption.ИспользоватьПроцессыСостояний</functionalOptions>
+  <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьСборкуЗаказов</functionalOptions>
   <definedTypes>DefinedType.Вес</definedTypes>
   <definedTypes>DefinedType.Объем</definedTypes>
   <commonCommands>CommonCommand.Напомнить</commonCommands>
@@ -69,6 +85,8 @@
   <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <constants>Constant.ИспользоватьПроцессыСостояний</constants>
+  <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
+  <constants>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</constants>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.КалендариСотрудников</catalogs>
@@ -87,14 +105,33 @@
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ПартииНоменклатуры</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
+  <catalogs>Catalog.СлужбыДоставки</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
+  <catalogs>Catalog.ПунктыВыдачиЗаказа</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <catalogs>Catalog.ИсточникиПривлеченияПокупателей</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.Событие</documents>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СервисыДоставки</enums>
+  <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ТипыДокументовЭДО</enums>
+  <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
 </mdclass:Configuration>

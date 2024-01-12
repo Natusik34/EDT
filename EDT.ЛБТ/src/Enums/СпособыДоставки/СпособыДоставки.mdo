@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="24b3cc31-6d3c-402d-9f89-82be1c28a429" extendedConfigurationObject="1e7986a0-d9d4-4c53-a2f1-d1e4e1da3100">
+  <producedTypes>
+    <refType typeId="28e09560-6fb9-45cc-aacc-864d95c45424" valueTypeId="50c71ad6-40b0-4b16-9be0-764f234ef48f"/>
+    <listType typeId="28b8e8d1-1a1e-485b-956d-e05e9919f8cc" valueTypeId="0def94ea-f662-4d79-b02d-992aeb3f79fb"/>
+    <managerType typeId="1ef2f51e-e61e-4fac-bf52-50dd1d2a247f" valueTypeId="01a4cacf-46eb-40ac-94ad-335cf0c83a03"/>
+  </producedTypes>
+  <name>СпособыДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="1aa2a020-536a-4f8e-bdab-b70deeebf51a" extendedConfigurationObject="804c6f0e-73b4-426a-afa3-33429bbe9bda">
+    <name>Самовывоз</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="57904054-4dce-43de-a917-6187c238fe05" extendedConfigurationObject="0c5581c8-ea05-44a0-9148-7270b2d19b9b">
+    <name>Курьер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ef737a28-37e9-4b36-a0e7-dc3fa1527108" extendedConfigurationObject="74a37dbc-9e48-4646-b16b-8a55bec6c5a5">
+    <name>ПунктВыдачи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f580c6e8-ddc4-4a5f-b338-cb933ac10ef7" extendedConfigurationObject="475d140a-d057-46e5-8761-80338928c423">
+    <name>Почта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

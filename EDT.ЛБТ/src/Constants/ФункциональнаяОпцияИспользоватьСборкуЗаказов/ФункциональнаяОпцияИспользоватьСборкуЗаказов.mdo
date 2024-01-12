@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eba0761b-ceb1-4cfe-be7c-31b762fb07cb" extendedConfigurationObject="fc2da1f4-fc0b-4440-8612-af6c5de50e71">
+  <producedTypes>
+    <managerType typeId="ba342252-a278-45d8-8a78-d9f535626501" valueTypeId="04b20ac1-6957-425a-a7d1-6d570561241b"/>
+    <valueManagerType typeId="8b67a574-365f-43f0-bd91-0a83cc17606c" valueTypeId="eeca9505-7290-42e8-a4c0-0cf4f4d01409"/>
+    <valueKeyType typeId="7b79e683-571f-4f00-9513-e70a8deddbd7" valueTypeId="4cf9dfdf-3931-4c93-8e0e-fd8f0167bc7e"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьСборкуЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Constant>

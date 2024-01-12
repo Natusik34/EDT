@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d0b2b33b-4b7d-4364-9ed8-98f111446ccf" extendedConfigurationObject="5978aaee-45ea-4975-9863-5cb7557adeab">
+  <producedTypes>
+    <objectType typeId="bc63876a-6038-43b3-8e71-f9c4cd10f252" valueTypeId="1b1721b4-cc10-48ab-ae93-134011dfb492"/>
+    <refType typeId="fa70f5c0-e384-427a-851d-15d580513adb" valueTypeId="54247ef1-53f2-42ab-9e51-fe3a5735a5ba"/>
+    <selectionType typeId="9a245184-14af-40d0-bde8-b6617ed96972" valueTypeId="5cb4c16a-e5f0-43ed-8abf-dc43c5a10906"/>
+    <listType typeId="2d5b6792-ff7e-46a0-a487-57a2c501db0d" valueTypeId="cb426011-08f3-4b00-b2b6-e2c2d46b35ec"/>
+    <managerType typeId="826307f2-8e79-4337-9f52-36a17d75fa5c" valueTypeId="3eb7ec8a-37e0-48cb-b8f4-770c0b6880f6"/>
+  </producedTypes>
+  <name>ИсточникиПривлеченияПокупателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

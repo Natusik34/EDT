@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7626e4f1-0c18-4fd6-8d7f-a1e470b46eea" extendedConfigurationObject="148b1787-6cef-4ebc-a95c-c4a34aa3f4b5">
+  <producedTypes>
+    <objectType typeId="79f578a9-7dcb-46b5-841b-3bd9257e87d4" valueTypeId="4bd9d0bd-9e54-4891-b22c-5915a45e9cbf"/>
+    <refType typeId="f3b4ac99-0bf8-46c7-ab5a-48e177b51cec" valueTypeId="9b41d4c6-a0da-4a62-8dd9-1028e4f328a7"/>
+    <selectionType typeId="de6b3453-6a22-4d75-94de-b743531073d5" valueTypeId="162a9ef7-74f2-42be-9b0a-2746ee235a07"/>
+    <listType typeId="7a9c958c-503e-4cfb-9603-f5469854691b" valueTypeId="ec1513d8-3b9c-4d4a-ae28-836a874060de"/>
+    <managerType typeId="bbca4d7c-7f01-41c1-8faf-9ede09fe06cc" valueTypeId="2740e876-d08f-4cfd-a983-ba71541a0353"/>
+  </producedTypes>
+  <name>ПунктыВыдачиЗаказа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
