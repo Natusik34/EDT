@@ -82,9 +82,9 @@
   <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <constants>Constant.ИспользоватьПроцессыСостояний</constants>
+  <constants>Constant.ЛБТ_Константа</constants>
   <constants>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</constants>
   <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
-  <constants>Constant.ЛБТ_Константа</constants>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
   <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
