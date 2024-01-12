@@ -45,6 +45,26 @@
   </languages>
   <subsystems>Subsystem.CRM</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
+  <styleItems>StyleItem.БазовыйЦветСостояний</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
   <roles>Role.ЛБТ_ОсновнаяРоль</roles>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПоЭлектроннойПочте</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПоSMS</commonCommands>
+  <commonCommands>CommonCommand.СвязанныеДокументы</commonCommands>
+  <commonCommands>CommonCommand.ОтчетПоДвижениям</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.КалендариСотрудников</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЗадачаСотрудника</documents>
+  <documents>Document.АвансовыйОтчет</documents>
+  <documents>Document.Взаимозачет</documents>
 </mdclass:Configuration>
