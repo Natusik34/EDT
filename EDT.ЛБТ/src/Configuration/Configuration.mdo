@@ -121,7 +121,6 @@
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗаказПоставщику</documents>
-  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.Событие</documents>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
