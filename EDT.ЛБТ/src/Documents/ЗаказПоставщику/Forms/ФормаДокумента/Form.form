@@ -10779,7 +10779,7 @@
     <name>ВалютаРасчетов</name>
     <id>5</id>
     <valueType>
-      <types>CatalogRef.Валюты</types>
+      <types>CatalogRef.БанковскиеСчета</types>
     </valueType>
     <view>
       <common>true</common>
@@ -10853,7 +10853,7 @@
     <name>НациональнаяВалюта</name>
     <id>13</id>
     <valueType>
-      <types>CatalogRef.Валюты</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
     </valueType>
     <view>
       <common>true</common>
@@ -10971,7 +10971,7 @@
     </title>
     <id>26</id>
     <valueType>
-      <types>EnumRef.ДействияГрупповогоИзмененияСтрок</types>
+      <types>EnumRef.СпособыДоставки</types>
     </valueType>
     <view>
       <common>true</common>
@@ -11165,7 +11165,7 @@
     <name>ЗапасыИзменениеСтрокДействиеПриОткрытии</name>
     <id>40</id>
     <valueType>
-      <types>EnumRef.ДействияГрупповогоИзмененияСтрок</types>
+      <types>EnumRef.СервисыДоставки</types>
     </valueType>
     <view>
       <common>true</common>
@@ -11189,7 +11189,7 @@
     <name>СпособЗаполненияСтавкиНДС</name>
     <id>8</id>
     <valueType>
-      <types>EnumRef.СпособыЗаполненияСтавкиНДС</types>
+      <types>EnumRef.СпособыДоставки</types>
     </valueType>
     <view>
       <common>true</common>

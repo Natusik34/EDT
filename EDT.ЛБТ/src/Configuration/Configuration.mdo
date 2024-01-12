@@ -121,6 +121,7 @@
   <catalogs>Catalog.КалендариСотрудников</catalogs>
   <catalogs>Catalog.ТегиЗадач</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
@@ -138,5 +139,7 @@
   <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ТипыДокументовЭДО</enums>
+  <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
+  <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
