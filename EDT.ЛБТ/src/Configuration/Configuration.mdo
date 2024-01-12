@@ -45,9 +45,12 @@
   </languages>
   <subsystems>Subsystem.CRM</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
+  <styleItems>StyleItem.БазовыйЦветСостояний</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.СветлыйСерый</styleItems>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
   <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <styleItems>StyleItem.ЦветГиперссылки</styleItems>
   <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
@@ -112,8 +115,13 @@
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.КалендариСотрудников</catalogs>
+  <documents>Document.ЗадачаСотрудника</documents>
+  <documents>Document.АвансовыйОтчет</documents>
+  <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.Событие</documents>
+  <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
