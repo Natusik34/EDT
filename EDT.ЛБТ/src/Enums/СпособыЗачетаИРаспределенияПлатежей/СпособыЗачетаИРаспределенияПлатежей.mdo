@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62ac912f-ab3c-434e-a75a-3885a3d64e3a" extendedConfigurationObject="ec7f89e5-9da1-40f9-97f2-338018f8f4a1">
+  <producedTypes>
+    <refType typeId="0fd6db62-a3e1-4baf-92a9-aa6b57ed3342" valueTypeId="abc61e9f-fbf0-4e88-bf6f-ebc12431a986"/>
+    <listType typeId="ebbed5db-1f3c-46fa-aceb-78323eb0e58e" valueTypeId="e56931e4-ff27-4315-9675-c3e2034fd3ff"/>
+    <managerType typeId="67d9be7c-67a7-48b3-a10d-b68670edda5a" valueTypeId="39d0cc9d-9f0c-4091-a7ba-52a5c642503f"/>
+  </producedTypes>
+  <name>СпособыЗачетаИРаспределенияПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Enum>
