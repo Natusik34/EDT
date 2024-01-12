@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="581d9770-93d6-4466-aecd-ed4bc412a524" extendedConfigurationObject="6ae8a22b-34d8-4c59-b3d5-dfa9d63728b9">
+  <name>ИспользоватьСборкуЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</location>
+</mdclass:FunctionalOption>
