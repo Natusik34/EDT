@@ -58,6 +58,7 @@
   <commonPictures>CommonPicture.ВниманиеВВидеТреугольника</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
+  <commonPictures>CommonPicture.ИсходящийЗапросЕГАИС</commonPictures>
   <commonPictures>CommonPicture.КоллекцияФлаги</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформацияТелефонУНФ</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформацияЭлПочта</commonPictures>
@@ -65,7 +66,9 @@
   <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.ОчиститьЗначение</commonPictures>
   <commonPictures>CommonPicture.ПодчиненныеЭлементы</commonPictures>
+  <commonPictures>CommonPicture.ПрослеживаемыйТовар</commonPictures>
   <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
   <commonPictures>CommonPicture.СтатусыСерийНоменклатуры</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
@@ -74,8 +77,10 @@
   <functionalOptions>FunctionalOption.ИспользоватьСборкуЗаказов</functionalOptions>
   <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
   <definedTypes>DefinedType.Вес</definedTypes>
+  <definedTypes>DefinedType.ДокументыОснованияКПоступлениюНаСклады</definedTypes>
   <definedTypes>DefinedType.Объем</definedTypes>
   <definedTypes>DefinedType.ОснованиеЗадачи</definedTypes>
+  <commonCommands>CommonCommand.ВыгрузитьВЕГАИС</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.Напомнить</commonCommands>
@@ -84,7 +89,9 @@
   <commonCommands>CommonCommand.ОтчетПоДвижениям</commonCommands>
   <commonCommands>CommonCommand.СвязанныеДокументы</commonCommands>
   <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
+  <commonCommands>CommonCommand.ФискальныеОперации</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <commandGroups>CommandGroup.ИнтеграцияСИнтернетМагазиномИнструменты</commandGroups>
   <constants>Constant.ИспользоватьПроцессыСостояний</constants>
   <constants>Constant.ЛБТ_Константа</constants>
   <constants>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</constants>
@@ -103,9 +110,12 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НомераГТД</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ПартииНоменклатуры</catalogs>
+  <catalogs>Catalog.Подписи</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказовПоставщикам</catalogs>
@@ -122,18 +132,24 @@
   <catalogs>Catalog.ТегиЗадач</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ПриходныйОрдер</documents>
   <documents>Document.Событие</documents>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
+  <enums>Enum.ВидыОперацийПриходнаяНакладная</enums>
   <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
+  <enums>Enum.ПринятьПоКолонке</enums>
   <enums>Enum.СервисыДоставки</enums>
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
