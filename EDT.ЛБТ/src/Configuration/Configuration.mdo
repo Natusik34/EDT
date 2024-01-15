@@ -55,6 +55,7 @@
   <styleItems>StyleItem.ЦветГиперссылки</styleItems>
   <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
   <commonPictures>CommonPicture.ВвестиКупон</commonPictures>
+  <commonPictures>CommonPicture.ВидимостьРазрешена</commonPictures>
   <commonPictures>CommonPicture.ВниманиеВВидеТреугольника</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
@@ -107,6 +108,7 @@
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
@@ -115,6 +117,7 @@
   <catalogs>Catalog.НомераГТД</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ПартииНоменклатуры</catalogs>
+  <catalogs>Catalog.Патенты</catalogs>
   <catalogs>Catalog.Подписи</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
@@ -126,6 +129,7 @@
   <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Спецификации</catalogs>
+  <catalogs>Catalog.Справки2ЕГАИС</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
@@ -140,7 +144,10 @@
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ПриходныйОрдер</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.РасходныйОрдер</documents>
   <documents>Document.Событие</documents>
+  <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВидыДоговоров</enums>
@@ -150,6 +157,7 @@
   <enums>Enum.ВидыОперацийПриходнаяНакладная</enums>
   <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
   <enums>Enum.ПринятьПоКолонке</enums>
+  <enums>Enum.ВидыОперацийРасходнаяНакладная</enums>
   <enums>Enum.СервисыДоставки</enums>
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
