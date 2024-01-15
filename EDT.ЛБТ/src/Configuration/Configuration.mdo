@@ -91,55 +91,55 @@
   <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
   <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
   <catalogs>Catalog.ИсточникиПривлеченияПокупателей</catalogs>
+  <catalogs>Catalog.КалендариСотрудников</catalogs>
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
+  <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ПартииНоменклатуры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.ПунктыВыдачиЗаказа</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СлужбыДоставки</catalogs>
+  <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Спецификации</catalogs>
-  <catalogs>Catalog.ПричиныОтменыЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.ТегиЗадач</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
-  <catalogs>Catalog.КалендариСотрудников</catalogs>
-  <catalogs>Catalog.ТегиЗадач</catalogs>
-  <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
-  <catalogs>Catalog.Валюты</catalogs>
-  <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
+  <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.Событие</documents>
-  <enums>Enum.ВидыОперацийВзаимозачет</enums>
-  <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
-  <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
+  <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
+  <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
   <enums>Enum.СервисыДоставки</enums>
   <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
   <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ТипыДокументовЭДО</enums>
-  <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
-  <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
