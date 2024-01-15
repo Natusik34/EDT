@@ -123,6 +123,7 @@
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.Событие</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
