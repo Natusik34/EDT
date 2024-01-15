@@ -117,13 +117,11 @@
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
-  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.Событие</documents>
-  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
