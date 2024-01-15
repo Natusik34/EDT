@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fa8ee8b1-e968-48c4-b601-aa994decf87e" extendedConfigurationObject="894727f2-94f9-4b2e-99ad-7ef67e638869">
+  <name>ИнтеграцияСИнтернетМагазиномИнструменты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommandGroupExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <category>Checked</category>
+  </extension>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

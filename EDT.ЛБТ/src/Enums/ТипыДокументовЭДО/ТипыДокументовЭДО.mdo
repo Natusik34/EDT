@@ -25,4 +25,25 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
+  <enumValues uuid="aa666d0b-3284-41af-9dd2-8482f4e7716c" extendedConfigurationObject="dc4b5af1-239b-4a4f-a85a-586bc098a20f">
+    <name>ТоварнаяНакладная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="9fb28167-b23d-4208-87bf-51e70cacdbfb" extendedConfigurationObject="934f3354-8413-4dd6-ace0-071eb18b76bc">
+    <name>АктВыполненныхРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8dee3916-05be-42c4-8816-5f9c1e889e6b" extendedConfigurationObject="2a47c137-6b65-4074-9ac1-97efb8442e6d">
+    <name>АктНаПередачуПрав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>

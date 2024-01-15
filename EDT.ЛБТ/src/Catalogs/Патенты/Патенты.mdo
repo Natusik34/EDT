@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5540382-23af-447a-a44d-01d932b4d9bc" extendedConfigurationObject="744a0b3f-afcc-4c8d-9380-83b6721c4056">
+  <producedTypes>
+    <objectType typeId="78a9a1ef-4495-4ef6-a0c1-16a64512fa2a" valueTypeId="80111027-1325-4ae4-abda-0415b396b559"/>
+    <refType typeId="5f2b3088-50bf-40bd-bda8-82df726c14bb" valueTypeId="fcbe8e4c-c6a2-4aeb-a8b6-919ecd36a4ef"/>
+    <selectionType typeId="fc6b6025-0728-4935-bf00-bd2bb44b85f8" valueTypeId="82360d39-0889-4e4e-a239-c368bcb5f07d"/>
+    <listType typeId="2f224dd5-10d2-4ec0-a9b4-da74e3cf85ba" valueTypeId="0384fecc-329f-46c1-8969-051519c8e9e6"/>
+    <managerType typeId="d7c5cd55-146f-4987-aab7-659df410c223" valueTypeId="1ba161c4-5c16-4c1f-b739-aab568d55a06"/>
+  </producedTypes>
+  <name>Патенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
