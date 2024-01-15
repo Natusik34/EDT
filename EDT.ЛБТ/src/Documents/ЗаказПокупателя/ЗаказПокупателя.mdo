@@ -11,6 +11,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <defaultObjectForm>Extended</defaultObjectForm>
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <attributes uuid="286ff3c6-adbc-439b-8e42-21d4a6b6478c" extendedConfigurationObject="3164e35f-3601-42b5-ba0d-68001304ec8b">
@@ -808,14 +809,13 @@
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
-    <attributes uuid="94f19446-147a-43ba-bea5-2a2167640faf" extendedConfigurationObject="d5e57fa8-e7c7-49b0-aed8-853fab12f4cd">
+    <attributes uuid="94f19446-147a-43ba-bea5-2a2167640faf">
       <name>ЭтоРазделитель</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-        <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
-            <state>Checked</state>
+            <state>Notify</state>
             <type>Boolean</type>
           </types>
         </typeExtension>
@@ -825,7 +825,7 @@
       <name>Номенклатура</name>
       <objectBelonging>Adopted</objectBelonging>
       <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <extendedConfigurationObject>Notify</extendedConfigurationObject>
         <typeExtension>
           <types>
             <state>Checked</state>
@@ -1012,7 +1012,7 @@
         <extendedConfigurationObject>Checked</extendedConfigurationObject>
         <typeExtension>
           <types>
-            <state>Checked</state>
+            <state>Notify</state>
             <type>Number</type>
           </types>
           <numberQualifiers>
@@ -1194,6 +1194,20 @@
           </types>
         </typeExtension>
       </extension>
+    </attributes>
+    <attributes uuid="4260615b-7bc8-45b3-8b54-c0e79ca0bfab">
+      <name>ЛБТ_Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
   <tabularSections uuid="6a2952ec-0fab-497d-9d88-102d5a7f2b30" extendedConfigurationObject="ce366ca2-b536-4bdf-9cb0-06ad083de860">
