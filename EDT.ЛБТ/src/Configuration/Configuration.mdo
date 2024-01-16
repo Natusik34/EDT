@@ -152,8 +152,8 @@
   <documents>Document.РасходИзКассы</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.РасходныйОрдер</documents>
-  <documents>Document.СверкаВзаиморасчетов</documents>
   <documents>Document.РасходСоСчета</documents>
+  <documents>Document.СверкаВзаиморасчетов</documents>
   <documents>Document.Событие</documents>
   <documents>Document.УведомлениеОПеремещенииПрослеживаемыхТоваров</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
