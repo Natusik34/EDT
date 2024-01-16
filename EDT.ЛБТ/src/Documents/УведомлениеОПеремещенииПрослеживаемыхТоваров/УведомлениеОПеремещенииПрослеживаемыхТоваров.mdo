@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dab79330-011f-4295-ac20-fc21ca44c35e" extendedConfigurationObject="ce8eae05-6641-488e-9c1e-1d6632bb6142">
+  <producedTypes>
+    <objectType typeId="66effe6b-d55a-4563-888d-349d0d5881bb" valueTypeId="b782203f-4f62-47e8-bce9-79e6ac24b2f6"/>
+    <refType typeId="ea930888-1e40-4218-9209-62f057a67b39" valueTypeId="92d879c9-ea4c-4281-87c6-51f8d0ee1193"/>
+    <selectionType typeId="52d3228e-2b6a-4f10-8835-02efcadd4d41" valueTypeId="ef1a4a79-84bb-4a9c-9ae8-e06deaacd8d3"/>
+    <listType typeId="8f366308-fa97-4190-b70f-2abcf5014846" valueTypeId="eac81e67-6e32-4eb6-81ac-ea3364f112cd"/>
+    <managerType typeId="3fad56df-ab9f-40bf-8c61-a9d8ec438153" valueTypeId="42595a04-0d5a-458d-a86f-c64a5e69d6f2"/>
+  </producedTypes>
+  <name>УведомлениеОПеремещенииПрослеживаемыхТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>

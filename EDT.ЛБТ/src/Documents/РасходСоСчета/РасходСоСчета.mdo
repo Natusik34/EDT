@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1da838b4-9db9-480c-be08-54f4374839a9" extendedConfigurationObject="6ea99190-7a64-4745-85dc-646d18445bb4">
+  <producedTypes>
+    <objectType typeId="2a282234-4ae9-4a07-a6fe-4017a224777f" valueTypeId="5b675e2b-66c8-433a-9768-7eed6a707c58"/>
+    <refType typeId="e3e3c7ca-306e-42b2-8cc9-d6b7a946236b" valueTypeId="b3872810-7f16-448f-8393-83c455c30e9a"/>
+    <selectionType typeId="a0ae29b0-f3ba-4985-80c3-242d6495d0a6" valueTypeId="31b653d6-fed6-4f1e-9bba-9039c3fb99b1"/>
+    <listType typeId="1110d24d-3171-4007-a7ee-a5d01c004b3a" valueTypeId="238128fe-eea4-4612-aad3-3f62f2ce62ea"/>
+    <managerType typeId="309591d7-adf9-4b9c-ad56-1f017c9bff4a" valueTypeId="4e4e4750-abc5-4058-bcf7-0e9513c4478b"/>
+  </producedTypes>
+  <name>РасходСоСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>
