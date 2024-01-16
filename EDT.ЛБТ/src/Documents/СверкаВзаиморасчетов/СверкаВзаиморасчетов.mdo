@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e556a73-f060-478d-b8d6-47be7493ac35" extendedConfigurationObject="fb7d1608-7e75-438b-a03f-38e5029bdbd9">
+  <producedTypes>
+    <objectType typeId="ad5d5056-c04f-47cf-89f7-b829487498af" valueTypeId="775b1e5d-0035-44c9-9012-67910ac3b776"/>
+    <refType typeId="dfbc6e1a-3569-4c3a-9c6f-a06c072a531a" valueTypeId="789d7438-264f-4d1a-b68b-c61cd6bf3c7b"/>
+    <selectionType typeId="15ef5bdd-b488-4ee4-adaf-3e37faaaab9c" valueTypeId="6117a113-ee04-4b0e-b226-6ffbd0e28eb1"/>
+    <listType typeId="0cdef75f-2bc8-4e2e-a71c-704122962e1b" valueTypeId="963f521b-f640-454f-a8d1-ecfbbb2d63ff"/>
+    <managerType typeId="9350278d-b8b1-4d4f-9cae-2e44ebbc9619" valueTypeId="fa2ced58-ed08-45c6-89c3-fd75a9fee6b6"/>
+  </producedTypes>
+  <name>СверкаВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>

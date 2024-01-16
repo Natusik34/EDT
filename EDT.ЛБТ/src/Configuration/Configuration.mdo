@@ -109,6 +109,7 @@
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
   <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
@@ -136,6 +137,7 @@
   <catalogs>Catalog.ТегиЗадач</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ХозяйственныеОперации</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
@@ -146,6 +148,7 @@
   <documents>Document.ПриходныйОрдер</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.РасходныйОрдер</documents>
+  <documents>Document.СверкаВзаиморасчетов</documents>
   <documents>Document.Событие</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
@@ -156,6 +159,7 @@
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.ВидыОперацийПриходнаяНакладная</enums>
   <enums>Enum.ВидыОперацийРасходнаяНакладная</enums>
+  <enums>Enum.ВидыПрочегоВзаимозачета</enums>
   <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
   <enums>Enum.ПринятьПоКолонке</enums>
   <enums>Enum.СервисыДоставки</enums>
@@ -166,4 +170,5 @@
   <enums>Enum.ТипыДокументовЭДО</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
 </mdclass:Configuration>
