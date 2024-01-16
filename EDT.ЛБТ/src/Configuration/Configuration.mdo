@@ -142,14 +142,21 @@
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ОперацияПоПлатежнымКартам</documents>
+  <documents>Document.ПоступлениеВКассу</documents>
+  <documents>Document.ПоступлениеНаСчет</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ПриходныйОрдер</documents>
+  <documents>Document.РасходИзКассы</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.РасходныйОрдер</documents>
+  <documents>Document.РасходСоСчета</documents>
   <documents>Document.Событие</documents>
+  <documents>Document.УведомлениеОПеремещенииПрослеживаемыхТоваров</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ВариантыИзмененияДанныхВДокументахИзПомощника</enums>
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
@@ -162,6 +169,7 @@
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
   <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
+  <enums>Enum.СтатусыИнформированияГИСМ</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ТипыДокументовЭДО</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
