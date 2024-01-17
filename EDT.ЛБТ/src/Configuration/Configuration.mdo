@@ -105,6 +105,7 @@
   <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыНачисленийИУдержаний</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
@@ -136,6 +137,7 @@
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СлужбыДоставки</catalogs>
   <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
+  <catalogs>Catalog.СостоянияСобытий</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Спецификации</catalogs>
   <catalogs>Catalog.Справки2ЕГАИС</catalogs>
@@ -152,6 +154,7 @@
   <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
+  <documents>Document.ЗаданиеНаРаботу</documents>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
@@ -175,6 +178,7 @@
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.ВидыЗавершенияПовторовРасписания</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
+  <enums>Enum.ВидыОперацийЗаданиеНаРаботу</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.ВидыОперацийПриходнаяНакладная</enums>
