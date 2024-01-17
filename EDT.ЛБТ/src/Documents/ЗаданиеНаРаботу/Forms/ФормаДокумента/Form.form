@@ -4610,7 +4610,7 @@
   </attributes>
   <attributes>
     <name>ДатаДокумента</name>
-    <id>1000002</id>
+    <id>1000007</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers>
@@ -4626,7 +4626,7 @@
   </attributes>
   <attributes>
     <name>Компания</name>
-    <id>1000004</id>
+    <id>1000006</id>
     <valueType>
       <types>CatalogRef.Организации</types>
     </valueType>
@@ -4639,7 +4639,7 @@
   </attributes>
   <attributes>
     <name>ПараметрыПодключаемыхКоманд</name>
-    <id>1000006</id>
+    <id>1000002</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -4715,7 +4715,7 @@
   </attributes>
   <attributes>
     <name>СтруктураВыбораНоменклатуры</name>
-    <id>1000008</id>
+    <id>1000003</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -4726,7 +4726,7 @@
   </attributes>
   <attributes>
     <name>ПодборНоменклатурыИзСписка</name>
-    <id>1000007</id>
+    <id>1000004</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -4739,7 +4739,7 @@
   </attributes>
   <attributes>
     <name>КолонкаКалендаря</name>
-    <id>1000003</id>
+    <id>1000008</id>
     <valueType>
       <types>CatalogRef.КолонкиКалендарейСотрудников</types>
     </valueType>
@@ -4761,119 +4761,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <formCommands>
-    <name>РедактироватьСписком</name>
-    <title>
-      <key>ru</key>
-      <value>Редактировать списком</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Редактировать списком</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ШапкаТабличнаяЧасть</name>
-    <title>
-      <key>ru</key>
-      <value>Шапка / табличная часть</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ШапкаТабличнаяЧасть</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьПодсистемуРаботы</functionalOptions>
-    <representation>TextPicture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>РаботыКопироватьСтроки</name>
-    <title>
-      <key>ru</key>
-      <value>Копировать строки</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Скопировать строки в буфер обмена</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+Alt+C</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.КопированиеСтрок</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>РаботыВставитьСтроки</name>
-    <title>
-      <key>ru</key>
-      <value>Вставить строки</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Вставить строки из буфера обмена</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+Alt+V</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ВставкаСтрок</picture>
-    </picture>
-    <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СохранитьДокументКакШаблон</name>
-    <title>
-      <key>ru</key>
-      <value>Сохранить документ как шаблон</value>
-    </title>
-    <id>7</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сохранить документ как шаблон</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.СохранитьДокументКакШаблон</picture>
-    </picture>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьДополнительныйРеквизит</name>
-    <title>
-      <key>ru</key>
-      <value>+ Свой реквизит</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить дополнительный реквизит для контрагентов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведения</functionalOptions>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

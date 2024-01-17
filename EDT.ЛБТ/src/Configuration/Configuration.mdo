@@ -31,7 +31,6 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.ЛБТ_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -77,6 +76,7 @@
   <functionalOptions>FunctionalOption.ИспользоватьПроцессыСостояний</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСборкуЗаказов</functionalOptions>
   <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
+  <functionalOptions>FunctionalOption.УчетВалютныхОпераций</functionalOptions>
   <definedTypes>DefinedType.Вес</definedTypes>
   <definedTypes>DefinedType.ДокументыОснованияКПоступлениюНаСклады</definedTypes>
   <definedTypes>DefinedType.Номенклатура</definedTypes>
@@ -101,6 +101,7 @@
   <constants>Constant.ЛБТ_Константа</constants>
   <constants>Constant.ФункциональнаяОпцияИспользоватьСборкуЗаказов</constants>
   <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
+  <constants>Constant.ФункциональнаяУчетВалютныхОпераций</constants>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
   <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
@@ -153,6 +154,7 @@
   <catalogs>Catalog.ЭтапыПроизводства</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.ЗаданиеНаРаботу</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ОперацияПоПлатежнымКартам</documents>
   <documents>Document.ПоступлениеВКассу</documents>
@@ -170,6 +172,7 @@
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВариантыИзмененияДанныхВДокументахИзПомощника</enums>
+  <enums>Enum.ВариантыУчетаДоставки</enums>
   <enums>Enum.ВариантыУчетаЧастичногоВыбытияИСМП</enums>
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.ВидыЗавершенияПовторовРасписания</enums>
@@ -183,6 +186,7 @@
   <enums>Enum.ВидыПрочегоВзаимозачета</enums>
   <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
   <enums>Enum.ИсточникиСтрокКалькуляции</enums>
+  <enums>Enum.ПоложениеРеквизитаНаФорме</enums>
   <enums>Enum.ПринятьПоКолонке</enums>
   <enums>Enum.СервисыДоставки</enums>
   <enums>Enum.СпособыДоставки</enums>
@@ -192,6 +196,7 @@
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ТипыДокументовЭДО</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыСтрокСоставаСпецификации</enums>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
 </mdclass:Configuration>

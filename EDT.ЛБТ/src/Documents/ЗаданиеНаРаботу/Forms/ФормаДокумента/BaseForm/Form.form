@@ -4578,14 +4578,9 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ДатаДокумента</name>
+    <name>ПараметрыПодключаемыхКоманд</name>
     <id>1000002</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -4594,11 +4589,9 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КолонкаКалендаря</name>
+    <name>СтруктураВыбораНоменклатуры</name>
     <id>1000003</id>
-    <valueType>
-      <types>CatalogRef.КолонкиКалендарейСотрудников</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -4607,10 +4600,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Компания</name>
+    <name>ПодборНоменклатурыИзСписка</name>
     <id>1000004</id>
     <valueType>
-      <types>CatalogRef.Организации</types>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -4631,21 +4624,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПараметрыПодключаемыхКоманд</name>
+    <name>Компания</name>
     <id>1000006</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПодборНоменклатурыИзСписка</name>
-    <id>1000007</id>
     <valueType>
-      <types>Boolean</types>
+      <types>CatalogRef.Организации</types>
     </valueType>
     <view>
       <common>true</common>
@@ -4655,9 +4637,27 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СтруктураВыбораНоменклатуры</name>
+    <name>ДатаДокумента</name>
+    <id>1000007</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КолонкаКалендаря</name>
     <id>1000008</id>
-    <valueType/>
+    <valueType>
+      <types>CatalogRef.КолонкиКалендарейСотрудников</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>
