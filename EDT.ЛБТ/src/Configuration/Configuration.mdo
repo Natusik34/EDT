@@ -152,11 +152,7 @@
   <catalogs>Catalog.ШтрихкодыУпаковокТоваров</catalogs>
   <catalogs>Catalog.ЭтапыПроизводства</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
-  <documents>Document.АвансовыйОтчет</documents>
-  <documents>Document.Взаимозачет</documents>
   <documents>Document.ЗаданиеНаРаботу</documents>
-  <documents>Document.ЗадачаСотрудника</documents>
-  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ОперацияПоПлатежнымКартам</documents>
   <documents>Document.ПоступлениеВКассу</documents>
