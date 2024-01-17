@@ -143,6 +143,7 @@
   <catalogs>Catalog.Спецификации</catalogs>
   <catalogs>Catalog.Справки2ЕГАИС</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.ТегиЗадач</catalogs>
@@ -153,7 +154,7 @@
   <catalogs>Catalog.ШтрихкодыУпаковокТоваров</catalogs>
   <catalogs>Catalog.ЭтапыПроизводства</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
-  <documents>Document.ЗаданиеНаРаботу</documents>
+  <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ОперацияПоПлатежнымКартам</documents>
@@ -167,6 +168,8 @@
   <documents>Document.РасходСоСчета</documents>
   <documents>Document.СверкаВзаиморасчетов</documents>
   <documents>Document.Событие</documents>
+  <documents>Document.СчетНаОплатуПоставщика</documents>
+  <documents>Document.СчетФактураПолученный</documents>
   <documents>Document.УведомлениеОПеремещенииПрослеживаемыхТоваров</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
@@ -195,6 +198,7 @@
   <enums>Enum.СтатусыИнформированияГИСМ</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
   <enums>Enum.ТипыДокументовЭДО</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ТипыСтрокСоставаСпецификации</enums>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
