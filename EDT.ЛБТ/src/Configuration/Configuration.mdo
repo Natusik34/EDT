@@ -89,6 +89,8 @@
   <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
   <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
@@ -97,6 +99,7 @@
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.КолонкиКалендарейСотрудников</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -110,6 +113,7 @@
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СлужбыДоставки</catalogs>
   <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
+  <catalogs>Catalog.СостоянияСобытий</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Спецификации</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
@@ -119,12 +123,14 @@
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
+  <documents>Document.ЗаданиеНаРаботу</documents>
   <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.Событие</documents>
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
+  <enums>Enum.ВидыОперацийЗаданиеНаРаботу</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.СервисыДоставки</enums>

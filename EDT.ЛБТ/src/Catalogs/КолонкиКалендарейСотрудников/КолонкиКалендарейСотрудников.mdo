@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="53fc1248-4aa8-471b-bae0-57d5b5f1346e" extendedConfigurationObject="5f3b5a00-dcc8-49fd-9b85-138a57e2d972">
+  <producedTypes>
+    <objectType typeId="d249c971-f5b6-4432-aec6-eed28cd4c000" valueTypeId="d4bc0541-d99a-4f9f-84de-cd5e1c8143b0"/>
+    <refType typeId="d0884f73-73e5-44ff-a7af-c80764d632ef" valueTypeId="469fb470-3d4b-43a5-8aa0-8b51fb9af30b"/>
+    <selectionType typeId="35fb45fc-62a9-4a38-adef-497c410370f2" valueTypeId="c3a1b6e9-c774-4745-89d2-ebdebb265a3d"/>
+    <listType typeId="3e97ae96-7538-4a17-938f-0fa3530fd5aa" valueTypeId="f7a68a3c-c82b-4944-be8e-839a33fce7ce"/>
+    <managerType typeId="3e53fc0e-0c89-4b4f-a6b7-37528f3137fe" valueTypeId="62c185db-ab2c-4b37-b1dd-9e529daa270f"/>
+  </producedTypes>
+  <name>КолонкиКалендарейСотрудников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
