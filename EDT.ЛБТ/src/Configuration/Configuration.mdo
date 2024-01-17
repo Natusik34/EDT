@@ -79,8 +79,12 @@
   <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
   <definedTypes>DefinedType.Вес</definedTypes>
   <definedTypes>DefinedType.ДокументыОснованияКПоступлениюНаСклады</definedTypes>
+  <definedTypes>DefinedType.Номенклатура</definedTypes>
   <definedTypes>DefinedType.Объем</definedTypes>
   <definedTypes>DefinedType.ОснованиеЗадачи</definedTypes>
+  <definedTypes>DefinedType.Промокод</definedTypes>
+  <definedTypes>DefinedType.УникальныйИдентификаторИС</definedTypes>
+  <definedTypes>DefinedType.ХарактеристикаНоменклатуры</definedTypes>
   <commonCommands>CommonCommand.ВыгрузитьВЕГАИС</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
@@ -100,6 +104,7 @@
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
   <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыНачисленийИУдержаний</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
@@ -109,6 +114,8 @@
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
   <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.КлючевыеРесурсы</catalogs>
+  <catalogs>Catalog.КолонкиКалендарейСотрудников</catalogs>
   <catalogs>Catalog.КонтактныеЛица</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛБТ_СправочникТест</catalogs>
@@ -117,6 +124,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.НомераГТД</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ПараметрыРасчетовДоставки</catalogs>
   <catalogs>Catalog.ПартииНоменклатуры</catalogs>
   <catalogs>Catalog.Патенты</catalogs>
   <catalogs>Catalog.Подписи</catalogs>
@@ -135,9 +143,12 @@
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.ТегиЗадач</catalogs>
+  <catalogs>Catalog.УсловияПредоставленияСкидокНаценок</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ХозяйственныеОперации</catalogs>
+  <catalogs>Catalog.ШтрихкодыУпаковокТоваров</catalogs>
+  <catalogs>Catalog.ЭтапыПроизводства</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.Взаимозачет</documents>
@@ -160,14 +171,18 @@
   <enums>Enum.ВариантыЗавершенияЗаказа</enums>
   <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
   <enums>Enum.ВариантыИзмененияДанныхВДокументахИзПомощника</enums>
+  <enums>Enum.ВариантыУчетаЧастичногоВыбытияИСМП</enums>
   <enums>Enum.ВидыДоговоров</enums>
+  <enums>Enum.ВидыЗавершенияПовторовРасписания</enums>
   <enums>Enum.ВидыОперацийВзаимозачет</enums>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
   <enums>Enum.ВидыОперацийЗаказПоставщику</enums>
   <enums>Enum.ВидыОперацийПриходнаяНакладная</enums>
   <enums>Enum.ВидыОперацийРасходнаяНакладная</enums>
+  <enums>Enum.ВидыПовторовРасписания</enums>
   <enums>Enum.ВидыПрочегоВзаимозачета</enums>
   <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
+  <enums>Enum.ИсточникиСтрокКалькуляции</enums>
   <enums>Enum.ПринятьПоКолонке</enums>
   <enums>Enum.СервисыДоставки</enums>
   <enums>Enum.СпособыДоставки</enums>

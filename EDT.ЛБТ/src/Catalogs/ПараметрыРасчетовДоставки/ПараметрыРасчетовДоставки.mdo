@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c945968b-2fbe-445f-9984-0d3cb265e328" extendedConfigurationObject="c132826b-5a1b-4033-9c55-c3cfa123d0ee">
+  <producedTypes>
+    <objectType typeId="e247ed07-d1b8-4a5c-afe5-7e92e7c8efd2" valueTypeId="48f736f4-610e-40f7-ba4c-1f4f7911a770"/>
+    <refType typeId="532914d9-dc2d-42ef-8be9-6c30a567111f" valueTypeId="8707d9ef-0cb0-40b1-a5e4-2de8d2d48f0e"/>
+    <selectionType typeId="1bd99c81-b4ff-4cef-8044-15f2eabeb0df" valueTypeId="5ef5794b-bb38-4e90-9cd7-c22fd9acaef0"/>
+    <listType typeId="a48c9654-eb7d-49a4-bb62-b3351555d34e" valueTypeId="0ea4c6f8-8040-433d-9b1e-b4cb517b7a01"/>
+    <managerType typeId="1f92e075-ace2-4c02-87ae-4f03b841ff6a" valueTypeId="4586d785-617e-46d6-840f-1c0436e19427"/>
+  </producedTypes>
+  <name>ПараметрыРасчетовДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

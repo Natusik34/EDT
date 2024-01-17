@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6e63294a-14dc-4003-8ec4-2980b466c96a" extendedConfigurationObject="50d7c5f6-dac4-432a-8126-edc031f87c34">
+  <producedTypes>
+    <objectType typeId="60b32681-ca4a-467e-94ce-98a215cb6b3f" valueTypeId="2cd777c5-9dfc-48d3-aaf7-e72df60db592"/>
+    <refType typeId="9e03330c-797e-4578-b355-dd35b6d255fe" valueTypeId="e1f3b683-af5d-4896-81d1-1331d5634f2d"/>
+    <selectionType typeId="370c3b67-ceb2-4e0b-a9f5-b2de5442a00e" valueTypeId="deecae99-ed92-4c23-a347-5b5ecaffa612"/>
+    <listType typeId="6eaeebd3-c18a-4147-83b9-5ee148c973a2" valueTypeId="1aec2750-33ba-45a6-8289-32e91d377895"/>
+    <managerType typeId="7298129b-fb91-4547-b6a0-45cce6c5b68a" valueTypeId="348668b7-3138-4056-817b-9f1db6be6f89"/>
+  </producedTypes>
+  <name>УсловияПредоставленияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

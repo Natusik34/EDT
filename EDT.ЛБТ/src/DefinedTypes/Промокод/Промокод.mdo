@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="53a13b28-a13a-4951-ad10-3b4ff071b878" extendedConfigurationObject="df3e8794-a07d-4a34-b78a-cb313fa0304c">
+  <producedTypes>
+    <containerType typeId="3f4417e1-646b-4078-9b8c-b7d8a7804b54" valueTypeId="8dbdbee1-14e3-4433-9f49-f21ff6798b8d"/>
+  </producedTypes>
+  <name>Промокод</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

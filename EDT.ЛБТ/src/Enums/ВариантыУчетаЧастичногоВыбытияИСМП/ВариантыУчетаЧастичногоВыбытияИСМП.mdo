@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d46f5980-7974-42ad-98f2-0cd57957ac43" extendedConfigurationObject="d7ad7773-65c5-40f1-ac38-842fae66b916">
+  <producedTypes>
+    <refType typeId="57b31e3a-1137-4883-928d-39a821fa9c55" valueTypeId="546d5079-ae60-4e41-ac9f-7f8f51633a57"/>
+    <listType typeId="f8b0d74f-f4f2-4e30-9814-77591ed3d670" valueTypeId="b2e9f6f6-b848-4871-aefa-9170e819503b"/>
+    <managerType typeId="51ca71a5-0ad2-494c-9261-f6e7a8486320" valueTypeId="c7875c75-4747-4b79-a355-b899cd5508b0"/>
+  </producedTypes>
+  <name>ВариантыУчетаЧастичногоВыбытияИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Enum>

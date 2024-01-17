@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7a8be5cf-f609-4f85-8657-3c5068a9e8bb" extendedConfigurationObject="3289357d-d1f0-4f60-b8a4-b7b51455d171">
+  <producedTypes>
+    <objectType typeId="7857dfd1-7809-4af7-8bad-92af11801e3c" valueTypeId="aa479e8f-965c-4216-92a3-5a847e595b1f"/>
+    <refType typeId="bdb687f4-48ca-46ae-973a-2b692a8e06b7" valueTypeId="57adbb78-207f-4362-a8f8-1f07e8be2e80"/>
+    <selectionType typeId="3ec39409-f487-4869-9cab-ab3293501923" valueTypeId="662a9c48-a350-4ef7-8f38-b3f2b182405c"/>
+    <listType typeId="2c1651de-4a63-41bc-a10e-c9b093a81cf3" valueTypeId="42fcd0dd-5b63-4f26-a544-c2d4942fad28"/>
+    <managerType typeId="872f7bd1-ea23-4879-91e4-1224bbf60595" valueTypeId="07961dc9-e265-41d3-81db-a5e5b6993bbe"/>
+  </producedTypes>
+  <name>КлючевыеРесурсы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
