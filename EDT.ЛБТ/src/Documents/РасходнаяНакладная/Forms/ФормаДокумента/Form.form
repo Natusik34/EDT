@@ -15430,7 +15430,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1000001</id>
+    <id>1000110</id>
     <valueType>
       <types>DocumentObject.РасходнаяНакладная</types>
     </valueType>
@@ -15440,6 +15440,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
     <additionalColumns>
@@ -16098,7 +16101,7 @@
       <key>ru</key>
       <value>Цены и валюта</value>
     </title>
-    <id>3</id>
+    <id>1000108</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16112,7 +16115,7 @@
   </attributes>
   <attributes>
     <name>ДатаДокумента</name>
-    <id>4</id>
+    <id>1000014</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers/>
@@ -16126,7 +16129,7 @@
   </attributes>
   <attributes>
     <name>Компания</name>
-    <id>5</id>
+    <id>1000038</id>
     <valueType>
       <types>CatalogRef.Организации</types>
     </valueType>
@@ -16139,7 +16142,7 @@
   </attributes>
   <attributes>
     <name>Заказ</name>
-    <id>8</id>
+    <id>1000020</id>
     <valueType>
       <types>DocumentRef.ЗаказПокупателя</types>
       <types>DocumentRef.ЗаказПоставщику</types>
@@ -16153,7 +16156,7 @@
   </attributes>
   <attributes>
     <name>Договор</name>
-    <id>10</id>
+    <id>1000018</id>
     <valueType>
       <types>CatalogRef.ДоговорыКонтрагентов</types>
     </valueType>
@@ -16166,7 +16169,7 @@
   </attributes>
   <attributes>
     <name>ЗаказВШапке</name>
-    <id>11</id>
+    <id>1000021</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16179,7 +16182,7 @@
   </attributes>
   <attributes>
     <name>Контрагент</name>
-    <id>12</id>
+    <id>1000039</id>
     <valueType>
       <types>CatalogRef.Контрагенты</types>
     </valueType>
@@ -16192,7 +16195,7 @@
   </attributes>
   <attributes>
     <name>КратностьНациональнаяВалюта</name>
-    <id>13</id>
+    <id>1000041</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16209,7 +16212,7 @@
   </attributes>
   <attributes>
     <name>КурсНациональнаяВалюта</name>
-    <id>14</id>
+    <id>1000042</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16227,7 +16230,7 @@
   </attributes>
   <attributes>
     <name>НациональнаяВалюта</name>
-    <id>15</id>
+    <id>1000047</id>
     <valueType>
       <types>CatalogRef.Валюты</types>
     </valueType>
@@ -16240,7 +16243,7 @@
   </attributes>
   <attributes>
     <name>ВалютаРасчетов</name>
-    <id>16</id>
+    <id>1000003</id>
     <valueType>
       <types>CatalogRef.Валюты</types>
     </valueType>
@@ -16253,7 +16256,7 @@
   </attributes>
   <attributes>
     <name>УчетВалютныхОпераций</name>
-    <id>6</id>
+    <id>1000106</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16266,7 +16269,7 @@
   </attributes>
   <attributes>
     <name>ИспользоватьПодключаемоеОборудование</name>
-    <id>17</id>
+    <id>1000031</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16279,7 +16282,7 @@
   </attributes>
   <attributes>
     <name>РазрешеноПроведение</name>
-    <id>19</id>
+    <id>1000070</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16292,7 +16295,7 @@
   </attributes>
   <attributes>
     <name>ОсновнойСклад</name>
-    <id>21</id>
+    <id>1000053</id>
     <valueType>
       <types>CatalogRef.СтруктурныеЕдиницы</types>
     </valueType>
@@ -16305,7 +16308,7 @@
   </attributes>
   <attributes>
     <name>КонтрагентВестиРасчетыПоЗаказам</name>
-    <id>24</id>
+    <id>1000040</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16318,7 +16321,7 @@
   </attributes>
   <attributes>
     <name>ПараметрыОткрытияПодбора</name>
-    <id>2</id>
+    <id>1000056</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16329,7 +16332,7 @@
   </attributes>
   <attributes>
     <name>ВидОперации</name>
-    <id>7</id>
+    <id>1000007</id>
     <valueType>
       <types>EnumRef.ВидыОперацийРасходнаяНакладная</types>
     </valueType>
@@ -16342,7 +16345,7 @@
   </attributes>
   <attributes>
     <name>АдресПримененныхСкидокВоВременномХранилище</name>
-    <id>9</id>
+    <id>1000002</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16356,7 +16359,7 @@
   </attributes>
   <attributes>
     <name>ДатаДокументаИзмененаВручную</name>
-    <id>18</id>
+    <id>1000015</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16369,7 +16372,7 @@
   </attributes>
   <attributes>
     <name>ИспользоватьАвтоматическиеСкидки</name>
-    <id>20</id>
+    <id>1000030</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16382,7 +16385,7 @@
   </attributes>
   <attributes>
     <name>СкидкиРассчитаныПередЗаписью</name>
-    <id>23</id>
+    <id>1000081</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16395,7 +16398,7 @@
   </attributes>
   <attributes>
     <name>УстановленСерыйЦвет</name>
-    <id>26</id>
+    <id>1000105</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16408,7 +16411,7 @@
   </attributes>
   <attributes>
     <name>ОбновитьКартинкуАвтоСкидкиПослеЗаписи</name>
-    <id>27</id>
+    <id>1000050</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16421,7 +16424,7 @@
   </attributes>
   <attributes>
     <name>СчитанаДисконтнаяКарта</name>
-    <id>29</id>
+    <id>1000095</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16434,7 +16437,7 @@
   </attributes>
   <attributes>
     <name>ПоддерживаемыеТипыПодключаемогоОборудования</name>
-    <id>30</id>
+    <id>1000062</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16452,7 +16455,7 @@
       <key>ru</key>
       <value>Что сделать</value>
     </title>
-    <id>33</id>
+    <id>1000022</id>
     <valueType>
       <types>EnumRef.ДействияГрупповогоИзмененияСтрок</types>
     </valueType>
@@ -16469,7 +16472,7 @@
       <key>ru</key>
       <value>Значение</value>
     </title>
-    <id>34</id>
+    <id>1000024</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16480,7 +16483,7 @@
   </attributes>
   <attributes>
     <name>ЗапасыИзменениеСтрокОбъектИзмененийРеквизит</name>
-    <id>35</id>
+    <id>1000025</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16494,7 +16497,7 @@
   </attributes>
   <attributes>
     <name>ЗапасыИзменениеСтрокОбъектИзмененийЭлемент</name>
-    <id>36</id>
+    <id>1000026</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16508,7 +16511,7 @@
   </attributes>
   <attributes>
     <name>ЗапасыРезервнаяКопияТаблицыАдрес</name>
-    <id>37</id>
+    <id>1000027</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16526,7 +16529,7 @@
       <key>ru</key>
       <value>Скидка сумма</value>
     </title>
-    <id>38</id>
+    <id>1000080</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16547,7 +16550,7 @@
       <key>ru</key>
       <value>Скидка процент</value>
     </title>
-    <id>39</id>
+    <id>1000079</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16564,7 +16567,7 @@
   </attributes>
   <attributes>
     <name>ПараметрыВыбораДокументаОснования</name>
-    <id>40</id>
+    <id>1000055</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16575,7 +16578,7 @@
   </attributes>
   <attributes>
     <name>ПоддержкаАвтоподбораКонтактов</name>
-    <id>41</id>
+    <id>1000063</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16586,7 +16589,7 @@
   </attributes>
   <attributes>
     <name>НастройкиЗагрузкиДанных</name>
-    <id>42</id>
+    <id>1000045</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16597,7 +16600,7 @@
   </attributes>
   <attributes>
     <name>СерииНоменклатурыРезервнаяКопияТаблицыАдрес</name>
-    <id>44</id>
+    <id>1000078</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16611,7 +16614,7 @@
   </attributes>
   <attributes>
     <name>ИспользоватьСерииНоменклатурыОстатки</name>
-    <id>45</id>
+    <id>1000035</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16622,7 +16625,7 @@
   </attributes>
   <attributes>
     <name>КэшЗначений</name>
-    <id>46</id>
+    <id>1000044</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16633,7 +16636,7 @@
   </attributes>
   <attributes>
     <name>ОснованиеСоздания</name>
-    <id>47</id>
+    <id>1000052</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16644,7 +16647,7 @@
   </attributes>
   <attributes>
     <name>СписокДокументОснование</name>
-    <id>48</id>
+    <id>1000085</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -16669,7 +16672,7 @@
       <key>ru</key>
       <value>Текст уведомления об отгрузке ГИСМ</value>
     </title>
-    <id>49</id>
+    <id>1000098</id>
     <valueType>
       <types>FormattedString</types>
     </valueType>
@@ -16682,7 +16685,7 @@
   </attributes>
   <attributes>
     <name>ЗапасыИзменениеСтрокДействиеПриОткрытии</name>
-    <id>50</id>
+    <id>1000023</id>
     <valueType>
       <types>EnumRef.ДействияГрупповогоИзмененияСтрок</types>
     </valueType>
@@ -16695,7 +16698,7 @@
   </attributes>
   <attributes>
     <name>СтатусГИСМ</name>
-    <id>51</id>
+    <id>1000089</id>
     <valueType>
       <types>EnumRef.СтатусыИнформированияГИСМ</types>
     </valueType>
@@ -16712,7 +16715,7 @@
       <key>ru</key>
       <value>Статус ГИСМ представление</value>
     </title>
-    <id>52</id>
+    <id>1000090</id>
     <valueType>
       <types>FormattedString</types>
     </valueType>
@@ -16729,7 +16732,7 @@
       <key>ru</key>
       <value>Итог всего</value>
     </title>
-    <id>53</id>
+    <id>1000036</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16751,7 +16754,7 @@
       <key>ru</key>
       <value>Итог сумма НДС</value>
     </title>
-    <id>54</id>
+    <id>1000037</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16769,7 +16772,7 @@
   </attributes>
   <attributes>
     <name>СтоимостьДоставкиСНДС</name>
-    <id>55</id>
+    <id>1000092</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -16786,7 +16789,7 @@
   </attributes>
   <attributes>
     <name>ПараметрыПодключаемыхКоманд</name>
-    <id>56</id>
+    <id>1000057</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -16797,7 +16800,7 @@
   </attributes>
   <attributes>
     <name>СкладВШапке</name>
-    <id>57</id>
+    <id>1000082</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -16814,7 +16817,7 @@
       <key>ru</key>
       <value>Телефон адрес ЭП</value>
     </title>
-    <id>58</id>
+    <id>1000099</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -16832,7 +16835,7 @@
       <key>ru</key>
       <value>Вариант заполнения расшифровки</value>
     </title>
-    <id>59</id>
+    <id>1000004</id>
     <valueType>
       <types>EnumRef.ВариантыЗаполненияРасшифровкиПлатежа</types>
     </valueType>
@@ -16845,7 +16848,7 @@
   </attributes>
   <attributes>
     <name>ВариантЗаполненияРасшифровкиВручную</name>
-    <id>60</id>
+    <id>1000005</id>
     <valueType>
       <types>EnumRef.ВариантыЗаполненияРасшифровкиПлатежа</types>
     </valueType>
@@ -16859,7 +16862,7 @@
   </attributes>
   <attributes>
     <name>ВариантЗаполненияРасшифровкиПросмотр</name>
-    <id>61</id>
+    <id>1000006</id>
     <valueType>
       <types>EnumRef.ВариантыЗаполненияРасшифровкиПлатежа</types>
     </valueType>
@@ -16873,7 +16876,7 @@
   </attributes>
   <attributes>
     <name>ВидОперацииПомощника</name>
-    <id>62</id>
+    <id>1000008</id>
     <valueType>
       <types>EnumRef.ВидыОперацийРасходнаяНакладная</types>
     </valueType>
@@ -16886,7 +16889,7 @@
   </attributes>
   <attributes>
     <name>ТаблицаДокументовДляИзменения</name>
-    <id>63</id>
+    <id>1000097</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -17118,7 +17121,7 @@
       <key>ru</key>
       <value>Таблица для просмотра</value>
     </title>
-    <id>64</id>
+    <id>1000096</id>
     <valueType>
       <types>SpreadsheetDocument</types>
     </valueType>
@@ -17132,7 +17135,7 @@
   </attributes>
   <attributes>
     <name>СпособыЗачетаАвто</name>
-    <id>65</id>
+    <id>1000087</id>
     <valueType>
       <types>EnumRef.СпособыЗачетаИРаспределенияПлатежей</types>
     </valueType>
@@ -17145,7 +17148,7 @@
   </attributes>
   <attributes>
     <name>СпособыЗачетаВручную</name>
-    <id>66</id>
+    <id>1000088</id>
     <valueType>
       <types>EnumRef.СпособыЗачетаИРаспределенияПлатежей</types>
     </valueType>
@@ -17158,7 +17161,7 @@
   </attributes>
   <attributes>
     <name>СтруктураПараметровРасчетов</name>
-    <id>67</id>
+    <id>1000094</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -17169,7 +17172,7 @@
   </attributes>
   <attributes>
     <name>ДатаПриСозданииНаСервере</name>
-    <id>68</id>
+    <id>1000016</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers/>
@@ -17183,7 +17186,7 @@
   </attributes>
   <attributes>
     <name>РазрешеноРедактированиеДокумента</name>
-    <id>69</id>
+    <id>1000071</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17196,7 +17199,7 @@
   </attributes>
   <attributes>
     <name>ПересчитатьНДСС18На20</name>
-    <id>71</id>
+    <id>1000059</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17209,7 +17212,7 @@
   </attributes>
   <attributes>
     <name>РежимОстаткиИРезервы</name>
-    <id>72</id>
+    <id>1000074</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17222,7 +17225,7 @@
   </attributes>
   <attributes>
     <name>РезервированиеЗапасов</name>
-    <id>73</id>
+    <id>1000075</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17235,7 +17238,7 @@
   </attributes>
   <attributes>
     <name>НоменклатураУдаленнойСтроки</name>
-    <id>74</id>
+    <id>1000049</id>
     <valueType>
       <types>CatalogRef.Номенклатура</types>
     </valueType>
@@ -17248,7 +17251,7 @@
   </attributes>
   <attributes>
     <name>ДанныеДляОбработки</name>
-    <id>22</id>
+    <id>1000013</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -17259,7 +17262,7 @@
   </attributes>
   <attributes>
     <name>СпособЗаполненияСтавкиНДС</name>
-    <id>32</id>
+    <id>1000086</id>
     <valueType>
       <types>EnumRef.СпособыЗаполненияСтавкиНДС</types>
     </valueType>
@@ -17272,7 +17275,7 @@
   </attributes>
   <attributes>
     <name>РазрешитьСкладыВТабличныхЧастях</name>
-    <id>43</id>
+    <id>1000072</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17285,7 +17288,7 @@
   </attributes>
   <attributes>
     <name>НастройкиФормыВыбораНоменклатуры</name>
-    <id>75</id>
+    <id>1000046</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -17350,7 +17353,7 @@
   </attributes>
   <attributes>
     <name>ПодборНоменклатурыИзСписка</name>
-    <id>76</id>
+    <id>1000060</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17363,7 +17366,7 @@
   </attributes>
   <attributes>
     <name>ПодборНоменклатурыИзСписка1</name>
-    <id>77</id>
+    <id>1000061</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17376,7 +17379,7 @@
   </attributes>
   <attributes>
     <name>СтруктураВыбораНоменклатуры</name>
-    <id>78</id>
+    <id>1000093</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -17387,7 +17390,7 @@
   </attributes>
   <attributes>
     <name>СписокВыбораСостоянийОригинала</name>
-    <id>80</id>
+    <id>1000084</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -17403,7 +17406,7 @@
   </attributes>
   <attributes>
     <name>ИспользоватьПроекты</name>
-    <id>28</id>
+    <id>1000032</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17420,7 +17423,7 @@
       <key>ru</key>
       <value>Состояние ЭДО</value>
     </title>
-    <id>81</id>
+    <id>1000083</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -17434,7 +17437,7 @@
   </attributes>
   <attributes>
     <name>СервисДоставки</name>
-    <id>82</id>
+    <id>1000077</id>
     <valueType>
       <types>EnumRef.СервисыДоставки</types>
     </valueType>
@@ -17451,7 +17454,7 @@
       <key>ru</key>
       <value>Статус заказа из сервиса</value>
     </title>
-    <id>83</id>
+    <id>1000091</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -17465,7 +17468,7 @@
   </attributes>
   <attributes>
     <name>ИдентификаторЗаказаНаДоставку</name>
-    <id>84</id>
+    <id>1000029</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -17483,7 +17486,7 @@
       <key>ru</key>
       <value>Тип грузоперевозки</value>
     </title>
-    <id>85</id>
+    <id>1000100</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -17503,7 +17506,7 @@
       <key>ru</key>
       <value>Трек номер сервиса доставки</value>
     </title>
-    <id>86</id>
+    <id>1000103</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -17517,7 +17520,7 @@
   </attributes>
   <attributes>
     <name>ИспользоватьСервис1СДоставка</name>
-    <id>87</id>
+    <id>1000033</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17530,7 +17533,7 @@
   </attributes>
   <attributes>
     <name>ИспользоватьСервис1СКурьер</name>
-    <id>88</id>
+    <id>1000034</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17543,7 +17546,7 @@
   </attributes>
   <attributes>
     <name>ЭтоНоваяСтрокаЗапасы</name>
-    <id>89</id>
+    <id>1000109</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17556,7 +17559,7 @@
   </attributes>
   <attributes>
     <name>РеализацияВЕАЭС</name>
-    <id>90</id>
+    <id>1000073</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17569,7 +17572,7 @@
   </attributes>
   <attributes>
     <name>ОтключитьБаннерУведомленийОПеремещении</name>
-    <id>25</id>
+    <id>1000054</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17582,7 +17585,7 @@
   </attributes>
   <attributes>
     <name>УведомлениеОПеремещении</name>
-    <id>91</id>
+    <id>1000104</id>
     <valueType>
       <types>DocumentRef.УведомлениеОПеремещенииПрослеживаемыхТоваров</types>
     </valueType>
@@ -17595,7 +17598,7 @@
   </attributes>
   <attributes>
     <name>ТребуетсяНапоминание</name>
-    <id>92</id>
+    <id>1000102</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17608,7 +17611,7 @@
   </attributes>
   <attributes>
     <name>ПоказыватьБаннер</name>
-    <id>93</id>
+    <id>1000064</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17621,7 +17624,7 @@
   </attributes>
   <attributes>
     <name>ОбновитьСрокОтправкиУведомлений</name>
-    <id>94</id>
+    <id>1000051</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17638,7 +17641,7 @@
       <key>ru</key>
       <value>Грузоотправитель он же</value>
     </title>
-    <id>95</id>
+    <id>1000011</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -17658,7 +17661,7 @@
       <key>ru</key>
       <value>Грузополучатель он же</value>
     </title>
-    <id>96</id>
+    <id>1000012</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -17674,7 +17677,7 @@
   </attributes>
   <attributes>
     <name>ВывестиСообщения</name>
-    <id>98</id>
+    <id>1000009</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17687,7 +17690,7 @@
   </attributes>
   <attributes>
     <name>ВыдатьПодаркиНаВыбор</name>
-    <id>97</id>
+    <id>1000010</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17700,7 +17703,7 @@
   </attributes>
   <attributes>
     <name>АдресПодарковНаВыбор</name>
-    <id>99</id>
+    <id>1000001</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -17714,7 +17717,7 @@
   </attributes>
   <attributes>
     <name>ДействиеПослеВыдачиПодарка</name>
-    <id>100</id>
+    <id>1000017</id>
     <valueType>
       <types>String</types>
       <stringQualifiers>
@@ -17730,7 +17733,7 @@
   </attributes>
   <attributes>
     <name>ЗапрашиватьСбросКоличества</name>
-    <id>101</id>
+    <id>1000028</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17743,7 +17746,7 @@
   </attributes>
   <attributes>
     <name>НовоеКоличествоПриИзмененииНоменклатуры</name>
-    <id>102</id>
+    <id>1000048</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -17761,7 +17764,7 @@
   </attributes>
   <attributes>
     <name>СбрасыватьКоличество</name>
-    <id>103</id>
+    <id>1000076</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17774,7 +17777,7 @@
   </attributes>
   <attributes>
     <name>КэшДанныхГОСИС</name>
-    <id>104</id>
+    <id>1000043</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -17785,7 +17788,7 @@
   </attributes>
   <attributes>
     <name>ПоказыватьКолонкуСодержаниеВРасходнойНакладной</name>
-    <id>31</id>
+    <id>1000067</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17798,7 +17801,7 @@
   </attributes>
   <attributes>
     <name>ТребуетсяИзменениеНалогообложениеНаСНДС</name>
-    <id>70</id>
+    <id>1000101</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17811,7 +17814,7 @@
   </attributes>
   <attributes>
     <name>ПромокодВведен</name>
-    <id>79</id>
+    <id>1000068</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17824,7 +17827,7 @@
   </attributes>
   <attributes>
     <name>ПромокодСработал</name>
-    <id>105</id>
+    <id>1000069</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17837,7 +17840,7 @@
   </attributes>
   <attributes>
     <name>ПоказыватьКолонкуВесВРасходнойНакладной</name>
-    <id>106</id>
+    <id>1000065</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17850,7 +17853,7 @@
   </attributes>
   <attributes>
     <name>ПоказыватьКолонкуОбъемВРасходнойНакладной</name>
-    <id>107</id>
+    <id>1000066</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17867,7 +17870,7 @@
       <key>ru</key>
       <value>Перед режимом ГТД были включены остатки и резервы</value>
     </title>
-    <id>108</id>
+    <id>1000058</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17884,7 +17887,7 @@
       <key>ru</key>
       <value>Учет остатков по складским ордерам</value>
     </title>
-    <id>109</id>
+    <id>1000107</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17901,7 +17904,7 @@
       <key>ru</key>
       <value>Доступен ордерный учет</value>
     </title>
-    <id>110</id>
+    <id>1000019</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -17912,1095 +17915,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <formCommands>
-    <name>РедактироватьЗачетПредоплаты</name>
-    <title>
-      <key>ru</key>
-      <value>Подобрать</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Редактировать зачет предоплаты</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.InputFieldOpen</picture>
-    </picture>
-    <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьПоОснованию</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить по основанию</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить по основанию</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЗаполнитьПоОснованию</picture>
-    </picture>
-    <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>Подбор</name>
-    <title>
-      <key>ru</key>
-      <value>Подобрать</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Подобрать</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьПоЗаказу</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить по заказу</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить по заказу</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЗаполнитьПоОснованию</picture>
-    </picture>
-    <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПоискПоШтрихкоду</name>
-    <title>
-      <key>ru</key>
-      <value>Поиск по штрихкоду</value>
-    </title>
-    <id>6</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Поиск по штрихкоду</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>F7</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.НовыйПоШтрихкоду</picture>
-    </picture>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВвестиОткрытьСчетФактуру</name>
-    <title>
-      <key>ru</key>
-      <value>Ввести открыть счет фактуру</value>
-    </title>
-    <id>7</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Ввести открыть счет фактуру</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ШапкаТабличнаяЧасть</name>
-    <title>
-      <key>ru</key>
-      <value>Шапка / табличная часть</value>
-    </title>
-    <id>8</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ШапкаТабличнаяЧасть</picture>
-    </picture>
-    <representation>TextPicture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьВес</name>
-    <title>
-      <key>ru</key>
-      <value>Вес</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить вес</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ПолучитьВес</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьПодключаемоеОборудование</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗагрузитьДанныеИзТСД</name>
-    <title>
-      <key>ru</key>
-      <value>Загрузить данные из ТСД</value>
-    </title>
-    <id>10</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Загрузить данные из ТСД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ПодключаемоеОборудованиеЗагрузитьИзТСД</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьПодключаемоеОборудование</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ИзменитьРезервЗаполнитьПоРезервам</name>
-    <title>
-      <key>ru</key>
-      <value>&quot;Из резерва&quot; по &quot;Зарезервировано&quot;</value>
-    </title>
-    <id>12</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить резерв по резервам на складе</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ИзменитьРезервОчиститьРезерв</name>
-    <title>
-      <key>ru</key>
-      <value>Очистить &quot;Из резерва&quot;</value>
-    </title>
-    <id>13</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Очистить колонку Резерв</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СделатьРозничнойПродажей</name>
-    <title>
-      <key>ru</key>
-      <value>В розницу</value>
-    </title>
-    <id>11</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сделать розничной продажей</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СчитатьДисконтнуюКарту</name>
-    <title>
-      <key>ru</key>
-      <value>Считать дисконтную карту</value>
-    </title>
-    <id>14</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Считать дисконтную карту</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+K</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.СчитатьДисконтнуюКарту</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьДисконтныеКарты</functionalOptions>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>РассчитатьСкидкиНаценки</name>
-    <title>
-      <key>ru</key>
-      <value>% Авт.</value>
-    </title>
-    <id>15</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Рассчитать автоматические скидки, наценки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Refresh</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьАвтоматическиеСкидкиНаценки</functionalOptions>
-    <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОткрытьИнформациюОСкидках</name>
-    <title>
-      <key>ru</key>
-      <value>% Авт.</value>
-    </title>
-    <id>16</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Открыть информацию о скидках (наценках) для текущей строки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.InputFieldOpen</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьАвтоматическиеСкидкиНаценки</functionalOptions>
-    <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыКопироватьСтроки</name>
-    <title>
-      <key>ru</key>
-      <value>Копировать строки </value>
-    </title>
-    <id>17</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Скопировать строки в буфер обмена</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+Alt+C</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.КопированиеСтрок</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыВставитьСтроки</name>
-    <title>
-      <key>ru</key>
-      <value>Вставить строки </value>
-    </title>
-    <id>18</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Вставить строки из буфера обмена</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+Alt+V</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ВставкаСтрок</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыВыполнитьДействие</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить</value>
-    </title>
-    <id>21</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыИзменитьСтроки</name>
-    <title>
-      <key>ru</key>
-      <value>Изменить</value>
-    </title>
-    <id>22</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Изменить строки таблицы</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыОтменитьИзменения</name>
-    <title>
-      <key>ru</key>
-      <value>Отмена</value>
-    </title>
-    <id>23</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Отменить все изменения</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыСнятьФлажки</name>
-    <title>
-      <key>ru</key>
-      <value>Снять пометки</value>
-    </title>
-    <id>24</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Снять пометки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.CheckAll</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыУстановитьФлажки</name>
-    <title>
-      <key>ru</key>
-      <value>Установить пометки</value>
-    </title>
-    <id>25</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Установить пометки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.UncheckAll</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СохранитьДокументКакШаблон</name>
-    <title>
-      <key>ru</key>
-      <value>Сохранить документ как шаблон</value>
-    </title>
-    <id>26</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сохранить документ как шаблон</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.СохранитьДокументКакШаблон</picture>
-    </picture>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗагрузкаДанныхИзВнешнегоИсточника</name>
-    <title>
-      <key>ru</key>
-      <value>Загрузка запасов из Excel</value>
-    </title>
-    <id>19</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Загрузка запасов из внешнего источника</value>
-    </toolTip>
-    <use>
-      <for>
-        <value>true</value>
-        <role>Role.ПолныеПрава</role>
-      </for>
-      <for>
-        <value>true</value>
-        <role>Role.ИспользованиеЗагрузкиДанныхИзВнешнегоИсточника</role>
-      </for>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЗагрузкаИзФайла</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>РежимГТД</name>
-    <title>
-      <key>ru</key>
-      <value>Включить режим &quot;Работать с ГТД&quot;</value>
-    </title>
-    <id>20</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Режим ГТД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.УчетГТД</functionalOptions>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПровестиИЗакрыть</name>
-    <title>
-      <key>ru</key>
-      <value>Провести и закрыть</value>
-    </title>
-    <id>27</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.WriteAndClose</picture>
-    </picture>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>Провести</name>
-    <title>
-      <key>ru</key>
-      <value>Провести</value>
-    </title>
-    <id>28</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Post</picture>
-    </picture>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаписатьКоманда</name>
-    <title>
-      <key>ru</key>
-      <value>Записать</value>
-    </title>
-    <id>29</id>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+S</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Write</picture>
-    </picture>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СделатьОптовойПродажей</name>
-    <title>
-      <key>ru</key>
-      <value>Опт</value>
-    </title>
-    <id>30</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сделать оптовой продажей</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НапечататьЧек</name>
-    <title>
-      <key>ru</key>
-      <value>Напечатать чек</value>
-    </title>
-    <id>31</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Напечатать чек</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ПодключаемоеОборудованиеФискальныйРегистратор16</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьПодключаемоеОборудование</functionalOptions>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НастроитьОкругления</name>
-    <title>
-      <key>ru</key>
-      <value>Настроить округления</value>
-    </title>
-    <id>32</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Настроить округления</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьОплатуСертификатом</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить оплату сертификатом</value>
-    </title>
-    <id>33</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить оплату сертификатом</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.ИспользоватьПодарочныеСертификаты</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьТаблицуПросмотра</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить таблицу просмотра</value>
-    </title>
-    <id>34</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить таблицу просмотра</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Refresh</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОткрытьПомощникЗачетаПредоплаты</name>
-    <title>
-      <key>ru</key>
-      <value>Помощник</value>
-    </title>
-    <id>35</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Открыть помощник зачета предоплаты</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НомераГТДЗаполнитьПоФактическимОстаткам</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить по фактическим остаткам</value>
-    </title>
-    <id>36</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Номера ГТД заполнить по фактическим остаткам</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.УчетГТД</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НомераГТДПодобрать</name>
-    <title>
-      <key>ru</key>
-      <value>Подобрать</value>
-    </title>
-    <id>37</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Номера ГТД подобрать</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.УчетГТД</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОстаткиИРезервы</name>
-    <title>
-      <key>ru</key>
-      <value>Остатки и резервы</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Показать остатки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыОбновить</name>
-    <title>
-      <key>ru</key>
-      <value>Обновить</value>
-    </title>
-    <id>38</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Запасы обновить</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>F5</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Refresh</picture>
-    </picture>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПоказатьДублиСтрок</name>
-    <title>
-      <key>ru</key>
-      <value>Показать только дубли строки</value>
-    </title>
-    <id>39</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Показать дубли строк</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ДублиСтроки</picture>
-    </picture>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапасыРазбитьСтроку</name>
-    <title>
-      <key>ru</key>
-      <value>Разбить строку</value>
-    </title>
-    <id>40</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Запасы разбить строку</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.РазбитьСтроку</picture>
-    </picture>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьКоличествоТемЧтоМожноОтгрузить</name>
-    <title>
-      <key>ru</key>
-      <value>&quot;Количество&quot; тем, что можно отгрузить</value>
-    </title>
-    <id>41</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить количество тем что можно отгрузить</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьПоОстаткамИРезервамВсеСклады</name>
-    <title>
-      <key>ru</key>
-      <value>По остаткам и резервам (все склады)</value>
-    </title>
-    <id>42</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить по остаткам и резервам все склады</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьДополнительныйРеквизит</name>
-    <title>
-      <key>ru</key>
-      <value>+ Свой реквизит</value>
-    </title>
-    <id>43</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить дополнительный реквизит для контрагентов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПредварительныйПросмотрЧека</name>
-    <title>
-      <key>ru</key>
-      <value>Предварительный просмотр чека</value>
-    </title>
-    <id>44</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Предварительный просмотр чека</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.ShowData</picture>
-    </picture>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПерейтиКЗаказуВСервисе</name>
-    <title>
-      <key>ru</key>
-      <value>Перейти к заказу в сервисе</value>
-    </title>
-    <id>45</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Перейти к заказу в сервисе</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПередатьЗаказВСервис</name>
-    <title>
-      <key>ru</key>
-      <value>Передать заказ в сервис</value>
-    </title>
-    <id>46</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Передать заказ в сервис</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыгрузитьДанныеВТСД</name>
-    <title>
-      <key>ru</key>
-      <value>Выгрузить данные в ТСД</value>
-    </title>
-    <id>47</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выгрузить данные в ТСД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ВыгрузитьВТСД</picture>
-    </picture>
-    <functionalOptions>FunctionalOption.ИспользоватьПодключаемоеОборудование</functionalOptions>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПовторнаяПечатьЧека</name>
-    <title>
-      <key>ru</key>
-      <value>Повторная печать чека</value>
-    </title>
-    <id>48</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Повторная печать чека</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СформироватьСписанияПодарков</name>
-    <title>
-      <key>ru</key>
-      <value>Сформировать списания подарков</value>
-    </title>
-    <id>50</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сформировать списания подарков</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ИсключитьПодаркиИзПродажи</name>
-    <title>
-      <key>ru</key>
-      <value>Исключить подарки из продажи</value>
-    </title>
-    <id>51</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Исключить подарки из продажи</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьОплатуБонусами</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить оплату бонусами</value>
-    </title>
-    <id>54</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить оплату сертификатом</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.ИспользоватьБонусныеПрограммы</functionalOptions>
-    <functionalOptions>FunctionalOption.ИспользоватьПодарочныеСертификаты</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-    <associatedTableElementId xsi:type="core:StringValue">
-      <value>Предоплата</value>
-    </associatedTableElementId>
-  </formCommands>
-  <formCommands>
-    <name>НастройкаСбросаКоличества</name>
-    <title>
-      <key>ru</key>
-      <value>Настройка сброса количества</value>
-    </title>
-    <id>52</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Настройка сброса количества</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.НастроитьСостоянияОригиналаПервичногоДокумента</picture>
-    </picture>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НастройкаФормы</name>
-    <title>
-      <key>ru</key>
-      <value>Настройка</value>
-    </title>
-    <id>53</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Настройка формы</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.НастроитьСостоянияОригиналаПервичногоДокумента</picture>
-    </picture>
-    <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьПромокод</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить промокод</value>
-    </title>
-    <id>49</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить промокод</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <functionalOptions>FunctionalOption.ИспользоватьПромокоды</functionalOptions>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьПоДокументуПоступления</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить по документу поступления</value>
-    </title>
-    <id>55</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЗаполнитьПоОснованию</picture>
-    </picture>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьПоОстаткамРасходныхОрдеров</name>
-    <title>
-      <key>ru</key>
-      <value>По остаткам расходных ордеров</value>
-    </title>
-    <id>56</id>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьРасходныеОрдераПоНоменклатуре</name>
-    <title>
-      <key>ru</key>
-      <value>Расходные ордера по номенклатуре</value>
-    </title>
-    <id>57</id>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПоОстаткамУКомиссионера</name>
-    <title>
-      <key>ru</key>
-      <value>По остаткам у комиссионера</value>
-    </title>
-    <id>58</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполняет по остаткам товаров у комиссионера.
-Если заказ покупателя в шапке, то заполнение будет происходить
-по значению из шапки документа (даже если заказ не выбран).
-Если заказ покупателя в табличной части, то заполнение произойдет
-по всем заказам.</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЦенаПередачиПоТипуЦен</name>
-    <title>
-      <key>ru</key>
-      <value>&quot;Цена передачи&quot; по виду цен комиссии</value>
-    </title>
-    <id>59</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполняет колонку &quot;Цена передачи&quot; по виду цен договора комиссии</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЦенуПередачиПоОстаткамРасчетов</name>
-    <title>
-      <key>ru</key>
-      <value>Цена передачи по остаткам расчетов</value>
-    </title>
-    <id>60</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить колонку &quot;Цена передачи&quot; по остаткам расчетов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -14,7 +14,6 @@
     <defaultObjectForm>Extended</defaultObjectForm>
   </extension>
   <useStandardCommands>true</useStandardCommands>
-  <defaultObjectForm>Document.РасходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <attributes uuid="45b8c5e6-9a3c-4685-b1cc-68715ecbf440" extendedConfigurationObject="8346043e-b3ff-44bb-8a02-1958c19839d2">
     <name>Контрагент</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -484,7 +483,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <forms uuid="0044266c-fc8a-4732-8cdf-993e203b03d1" extendedConfigurationObject="f2399716-997d-48c1-8d29-70d2ec17d5ff">
+  <forms uuid="654d3b49-c3f6-4ec5-ad6e-e8fd417f19d1" extendedConfigurationObject="f2399716-997d-48c1-8d29-70d2ec17d5ff">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
