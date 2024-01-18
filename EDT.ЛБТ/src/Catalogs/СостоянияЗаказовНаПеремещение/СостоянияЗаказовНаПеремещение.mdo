@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c03308cd-0d7f-4c2e-884d-cf1d5fad8b6e" extendedConfigurationObject="12ac8a32-4fa7-412c-8d83-31527d5595eb">
+  <producedTypes>
+    <objectType typeId="cebc4ea4-62ab-4b04-acd7-b1bcd619ba9e" valueTypeId="0bc4cb6f-bcb4-498f-9e2e-1562c7d70e48"/>
+    <refType typeId="b03f019b-83e9-44d6-835f-a502aae6a38f" valueTypeId="c89d9547-7362-4cd9-af02-d155482bc5e0"/>
+    <selectionType typeId="868adec9-3509-497a-b19d-a9229c921e6d" valueTypeId="b9c77ff4-69fc-4059-a55d-9d15d7075145"/>
+    <listType typeId="e4d294d7-64af-41f0-b574-1dd7622dac42" valueTypeId="a79e11fc-450c-4f89-ba2c-590249fff738"/>
+    <managerType typeId="56d814d0-c2a7-4c47-84b1-013b4ff938ac" valueTypeId="7fbab33e-6c0e-4833-8c8e-a673f4fed3e8"/>
+  </producedTypes>
+  <name>СостоянияЗаказовНаПеремещение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
