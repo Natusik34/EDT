@@ -47,6 +47,7 @@
   <styleItems>StyleItem.БазовыйЦветСостояний</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ОплатаСервисаБудущийДополнительныйТарифФон</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.СветлыйСерый</styleItems>
   <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
@@ -137,6 +138,7 @@
   <catalogs>Catalog.ПунктыВыдачиЗаказа</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СлужбыДоставки</catalogs>
+  <catalogs>Catalog.СостоянияЗаказовНаПеремещение</catalogs>
   <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.СостоянияСобытий</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -155,6 +157,7 @@
   <catalogs>Catalog.ЭтапыПроизводства</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
+  <documents>Document.ЗаказНаПеремещение</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ОперацияПоПлатежнымКартам</documents>
